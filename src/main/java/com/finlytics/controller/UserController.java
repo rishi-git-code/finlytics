@@ -3,6 +3,7 @@ package com.finlytics.controller;
 import com.finlytics.dto.UserReqDTO;
 import com.finlytics.dto.UserResDTO;
 import com.finlytics.service.UserService;
+import com.finlytics.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +21,6 @@ public class UserController   {
     //MongoDB -> NoSQL don't need all values from entity should be in request body
     @PostMapping("/register")
     public ResponseEntity<?> createUser(@RequestBody UserReqDTO userReqDTO) {
-
         UserResDTO userDetail = userService.getUserByEmail(userReqDTO);
 
         if(userDetail.getEmail()!=null){
@@ -38,7 +38,9 @@ public class UserController   {
         UserResDTO userDetail = userService.getUserByEmail(userReqDTO);
         boolean isValidUser = userService.validateUser(userReqDTO);
         if(isValidUser){
+
             message.put("message","Welcome! "+userDetail.getUsername());
+            message.put("jwtToken",JwtUtil.generateToken(userReqDTO.getEmail()));
             return ResponseEntity.ok(message);
         }
         message.put("error","Authentication failed. Invalid credentials.");
@@ -49,6 +51,18 @@ public class UserController   {
     public List<UserResDTO> getUsers() {
 
         return userService.getAllUsers();
+    }
+
+    @PutMapping("/modify")
+    public ResponseEntity<?> modifyUser(@RequestBody UserReqDTO userReqDTO) {
+
+        UserResDTO userResDTO = userService.modifyUser(userReqDTO);
+        if(userResDTO!=null){
+            return ResponseEntity.ok(userResDTO);
+        }
+        Map<String, String> error = new HashMap<>();
+        error.put("error","No User Found");
+        return ResponseEntity.status(404).body(error);
     }
 
 }

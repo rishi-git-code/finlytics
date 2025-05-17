@@ -69,4 +69,27 @@ public class UserService {
         }
         return matchPassword && matchEmail;
     }
+
+    public UserResDTO modifyUser(UserReqDTO userReqDTO){
+
+        Optional<User> userDetails = userRepository.findByEmail(userReqDTO.getEmail());
+        return userDetails.map(userExist -> {
+            if(userReqDTO.getPhoneNumber()!=null){
+                userExist.setPhoneNumber(userReqDTO.getPhoneNumber());
+            }
+            if(userReqDTO.getUsername()!=null){
+                userExist.setUsername(userReqDTO.getUsername());
+            }
+            if(userReqDTO.getRole()!=null){
+                userExist.setRole(userReqDTO.getRole());
+            }
+            if(userReqDTO.getPassword()!=null){
+                userExist.setPassword(passwordEncoder.encode(userReqDTO.getPassword()));
+            }
+
+            User updatedUser = userRepository.save(userExist);
+
+            return mapToUserResDTO(updatedUser);
+        }).orElse(null);
+    }
 }
