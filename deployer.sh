@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cd /home/ec2-user/finlytics/finlytics || exit
 
 echo "🔄 Pulling latest code..."
