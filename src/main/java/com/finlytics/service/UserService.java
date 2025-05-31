@@ -74,16 +74,16 @@ public class UserService {
 
         Optional<User> userDetails = userRepository.findByEmail(userReqDTO.getEmail());
         return userDetails.map(userExist -> {
-            if(userReqDTO.getPhoneNumber()!=null){
+            if(userReqDTO.getPhoneNumber()!=null && !userReqDTO.getPhoneNumber().isEmpty()){
                 userExist.setPhoneNumber(userReqDTO.getPhoneNumber());
             }
-            if(userReqDTO.getUsername()!=null){
+            if(userReqDTO.getUsername()!=null && !userReqDTO.getUsername().isEmpty()){
                 userExist.setUsername(userReqDTO.getUsername());
             }
-            if(userReqDTO.getRole()!=null){
+            if(userReqDTO.getRole()!=null && !userReqDTO.getRole().isEmpty()){
                 userExist.setRole(userReqDTO.getRole());
             }
-            if(userReqDTO.getPassword()!=null){
+            if(userReqDTO.getPassword()!=null && !userReqDTO.getPassword().isEmpty()){
                 userExist.setPassword(passwordEncoder.encode(userReqDTO.getPassword()));
             }
 
