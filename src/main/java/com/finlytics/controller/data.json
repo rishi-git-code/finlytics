@@ -1,0 +1,4170 @@
+{
+  "id": "bd250510-6242-49c9-82b4-46cad7c40b06",
+  "name": "Spiral4",
+  "customerRef": "323004482727",
+  "items": [
+    {
+      "productId": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+      "productCandidate": {
+        "ID": "ID_heaxbngkvq",
+        "EntityID": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+        "ItemSource": "cpq",
+        "CharacteristicUse": [
+          {
+            "UseArea": "Dish_Contextual_Characteristics",
+            "CharacteristicID": "db402d12-52f1-4c3f-9c51-d6979ec23cc1",
+            "Value": [
+              {
+                "ValueID": "72f45ed5-924b-469b-ad2d-4dcf08c8a436"
+              }
+            ],
+            "UseID": "10d2a682-e699-42c3-a5e0-636cb680ad04",
+            "ItemSource": "cpq"
+          },
+          {
+            "UseArea": "Contract_Term",
+            "CharacteristicID": "0162e08a-8eab-417b-bb11-30118ab8acb1",
+            "Value": [
+              {
+                "ValueID": "93bc2cf1-18c8-4583-9f55-fa865b221910"
+              }
+            ],
+            "UseID": "0162e08a-8eab-417b-bb11-30118ab8acb1",
+            "ItemSource": "cpq"
+          },
+          {
+            "UseArea": "Dish_Contextual_Characteristics",
+            "CharacteristicID": "5b028a9d-aaae-4433-ad0c-4f729f80c8d6",
+            "Value": [
+              {
+                "ValueID": "ede162e5-2af0-0b7b-c7ea-323319e13ba8"
+              }
+            ],
+            "UseID": "683ad0b6-2e92-4784-8d23-629df7c6ff5d",
+            "ItemSource": "cpq"
+          },
+          {
+            "UseArea": "Dish_Contextual_Characteristics",
+            "CharacteristicID": "fdd7a815-fdba-44b0-bc40-f77241f143ee",
+            "Value": [
+              {
+                "ValueID": "1c296d1f-3731-4b2b-9b5d-da0cb7cb1013"
+              }
+            ],
+            "UseID": "1888ec39-305d-430c-80b7-16bfb8a79fe6",
+            "ItemSource": "cpq"
+          }
+        ],
+        "RateAttribute": [],
+        "ConfiguredValue": [],
+        "LinkedEntity": [],
+        "ChildEntity": [
+          {
+            "ID": "ID_d0e5ssuszq",
+            "EntityID": "2b4e502c-c700-474b-a62d-ec0257060b91",
+            "ItemSource": "cpq",
+            "CharacteristicUse": [
+              {
+                "UseArea": "Dish_Contextual_Characteristics",
+                "CharacteristicID": "b765290f-61d1-443a-8313-55e933464479",
+                "Value": [
+                  {
+                    "ValueID": "42bca385-56e9-433a-aac2-722fe6790b5e"
+                  }
+                ],
+                "UseID": "bca4ab84-0e41-46a0-a82f-a62d71e56040",
+                "ItemSource": "cpq"
+              }
+            ],
+            "RateAttribute": [],
+            "ConfiguredValue": [
+              {
+                "UseArea": "Dish_User_Defined_Characteristics",
+                "CharacteristicID": "22e05c89-b4a9-4281-b2fe-5a9c40a8374c",
+                "Value": [
+                  {
+                    "Value": "1",
+                    "ValueDetail": "Quantity"
+                  }
+                ],
+                "UseID": "2f6dfbc9-2365-4a6e-95ca-debebc29a7bd",
+                "ItemSource": "cpq"
+              }
+            ],
+            "LinkedEntity": [],
+            "ChildEntity": [
+              {
+                "ID": "ID_j1soz2lid8",
+                "EntityID": "1dd5f0a5-d1b8-410c-b024-d69388c30774",
+                "ItemSource": "cpq",
+                "CharacteristicUse": [],
+                "RateAttribute": [],
+                "ConfiguredValue": [],
+                "LinkedEntity": [],
+                "ChildEntity": []
+              },
+              {
+                "ID": "ID_e8mzaby2hh",
+                "EntityID": "ce06794e-a34f-456d-8d93-bc5d339e3a96",
+                "ItemSource": "cpq",
+                "CharacteristicUse": [],
+                "RateAttribute": [],
+                "ConfiguredValue": [],
+                "LinkedEntity": [],
+                "ChildEntity": []
+              }
+            ]
+          }
+        ]
+      },
+      "prePricedCandidate": {
+        "ID": "_d5fb4785-ac56-4348-9c21-a3444206dbf5",
+        "EntityID": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+        "ChildEntity": [
+          {
+            "ID": "_bd4ae367-a8bc-49a2-990f-0cf935e9f579",
+            "EntityID": "14a3ae83-8a5c-4d15-984b-131f1141c644",
+            "ChildEntity": [],
+            "CharacteristicUse": [],
+            "RateAttribute": [],
+            "ConfiguredValue": [],
+            "LinkedEntity": [],
+            "ExactType": "Business_Mobility_Charge_Discount_Template",
+            "DiscountType": "ChargeBasedDiscount",
+            "TargetAdjustmentSet": {
+              "RateID": "87a26195-40e4-4867-b7cc-d040e75e759d",
+              "TargetAdjustment": [
+                {
+                  "ID": "8e761227-5b59-4406-bf97-b6c62b847510",
+                  "Type": "Percentage",
+                  "Amount": 0,
+                  "Targets": [
+                    {
+                      "ID": "_f3803b8c-0472-4925-98a5-5af685820812"
+                    }
+                  ]
+                }
+              ]
+            },
+            "_IsNewForCustomer": true
+          },
+          {
+            "ID": "_a611a55b-2f5c-4554-884f-94e546d34a7f",
+            "EntityID": "950b988d-706f-4ff9-87fd-e5cf8de8fe57",
+            "ChildEntity": [],
+            "CharacteristicUse": [],
+            "RateAttribute": [],
+            "ConfiguredValue": [],
+            "LinkedEntity": [],
+            "_IsNewForCustomer": true
+          },
+          {
+            "ID": "_c2264cee-5242-4b23-be45-fd5076a35760",
+            "EntityID": "2b4e502c-c700-474b-a62d-ec0257060b91",
+            "ChildEntity": [
+              {
+                "ID": "_448782b0-24c4-4d7f-903b-fca290e4c3fe",
+                "EntityID": "1dd5f0a5-d1b8-410c-b024-d69388c30774",
+                "ChildEntity": [
+                  {
+                    "ID": "_2903a01c-d1b4-47dc-9b0b-767418ed631d",
+                    "EntityID": "a04b0811-5d85-4f43-90e0-18f39876fd95",
+                    "ChildEntity": [
+                      {
+                        "ID": "_f3803b8c-0472-4925-98a5-5af685820812",
+                        "EntityID": "3a8ac1f7-a2c7-43de-8b25-47da92c2cc80",
+                        "ChildEntity": [],
+                        "CharacteristicUse": [],
+                        "RateAttribute": [
+                          {
+                            "Name": "Billing_Details",
+                            "Value": "f1f23d0d-a5f4-4408-b7a4-bd568bacfb9a"
+                          },
+                          {
+                            "Name": "BaseRate",
+                            "Value": "25.00"
+                          }
+                        ],
+                        "ConfiguredValue": [],
+                        "LinkedEntity": [],
+                        "Rate": {
+                          "ID": "56be4dbe-6b5c-4d6e-ba7e-f60bba130086",
+                          "Type": "Business_Mobility_Plan_Device_Recurring_Rate",
+                          "StartDate": "2025-02-10",
+                          "Value": "25",
+                          "OriginalValue": 25,
+                          "RateAdjustment": {
+                            "Total": 0,
+                            "AdjustmentItem": [
+                              {
+                                "Amount": "0",
+                                "Type": "Percentage",
+                                "Value": 0,
+                                "DiscountDescription": "Discounted Rate for Enterprise Unlimited",
+                                "Source": {
+                                  "ID": "_bd4ae367-a8bc-49a2-990f-0cf935e9f579",
+                                  "EntityID": "14a3ae83-8a5c-4d15-984b-131f1141c644",
+                                  "RateID": "87a26195-40e4-4867-b7cc-d040e75e759d",
+                                  "AdjustmentID": "8e761227-5b59-4406-bf97-b6c62b847510"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "ChargeType": "RecurringCharge",
+                        "ExactType": "Bus_Mob_Plan_Recur_Charge_Template",
+                        "Periodicity": "Monthly",
+                        "_IsNewForCustomer": true
+                      }
+                    ],
+                    "CharacteristicUse": [],
+                    "RateAttribute": [],
+                    "ConfiguredValue": [],
+                    "LinkedEntity": [],
+                    "_IsNewForCustomer": true
+                  }
+                ],
+                "CharacteristicUse": [],
+                "RateAttribute": [],
+                "ConfiguredValue": [],
+                "LinkedEntity": [],
+                "_IsNewForCustomer": true
+              },
+              {
+                "ID": "_a85fcb2c-8a19-441b-ab83-7758daa58f4a",
+                "EntityID": "ce06794e-a34f-456d-8d93-bc5d339e3a96",
+                "ChildEntity": [
+                  {
+                    "ID": "_02e88d53-d015-448a-bfed-86797563df47",
+                    "EntityID": "0c418512-5532-406e-805a-6e39c824b433",
+                    "ChildEntity": [
+                      {
+                        "ID": "_f9b50e03-4504-43c2-a3dd-3a4c2d5917d3",
+                        "EntityID": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+                        "ChildEntity": [],
+                        "CharacteristicUse": [],
+                        "RateAttribute": [
+                          {
+                            "Name": "Billing_Details",
+                            "Value": "c123575c-5f4c-4da2-b1fb-95d8f3cd4e03"
+                          },
+                          {
+                            "Name": "BaseRate",
+                            "Value": "10"
+                          }
+                        ],
+                        "ConfiguredValue": [],
+                        "LinkedEntity": [],
+                        "Rate": {
+                          "ID": "7db299b3-c57a-4783-aabd-f237825185fb",
+                          "Type": "Business_Mobility_VAS_Recurring_Rate",
+                          "StartDate": "2025-03-12",
+                          "Value": "0",
+                          "OriginalValue": 0
+                        },
+                        "ChargeType": "RecurringCharge",
+                        "ExactType": "Business_Mob_VAS_Recur_Charge_Template",
+                        "Periodicity": "Monthly",
+                        "_IsNewForCustomer": true
+                      }
+                    ],
+                    "CharacteristicUse": [],
+                    "RateAttribute": [],
+                    "ConfiguredValue": [],
+                    "LinkedEntity": [],
+                    "_IsNewForCustomer": true
+                  },
+                  {
+                    "ID": "_b4e74633-ea91-45b2-b369-50d25ac361fa",
+                    "EntityID": "e0b28e73-f579-45c2-a9f7-c08facdab6f8",
+                    "ChildEntity": [
+                      {
+                        "ID": "_9412a7ad-b6b7-4b94-bc96-23eb6e7f901d",
+                        "EntityID": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+                        "ChildEntity": [],
+                        "CharacteristicUse": [],
+                        "RateAttribute": [
+                          {
+                            "Name": "Billing_Details",
+                            "Value": "f46a4d0d-9f63-4823-9948-43e77069b3ca"
+                          },
+                          {
+                            "Name": "BaseRate",
+                            "Value": "20"
+                          }
+                        ],
+                        "ConfiguredValue": [],
+                        "LinkedEntity": [],
+                        "Rate": {
+                          "ID": "3a689ce0-2bf2-4447-a8cb-4b0d29c601bb",
+                          "Type": "Business_Mobility_VAS_Recurring_Rate",
+                          "StartDate": "2025-03-12",
+                          "Value": "0",
+                          "OriginalValue": 0
+                        },
+                        "ChargeType": "RecurringCharge",
+                        "ExactType": "Business_Mob_VAS_Recur_Charge_Template",
+                        "Periodicity": "Monthly",
+                        "_IsNewForCustomer": true
+                      }
+                    ],
+                    "CharacteristicUse": [],
+                    "RateAttribute": [],
+                    "ConfiguredValue": [],
+                    "LinkedEntity": [],
+                    "_IsNewForCustomer": true
+                  },
+                  {
+                    "ID": "_c8c89b64-5a7e-4dec-b150-0a1de46fdac9",
+                    "EntityID": "63c4ffcb-27fb-4df8-867a-889e760ee74a",
+                    "ChildEntity": [
+                      {
+                        "ID": "_bc822167-4475-464e-bdab-1bced2219a3e",
+                        "EntityID": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+                        "ChildEntity": [],
+                        "CharacteristicUse": [],
+                        "RateAttribute": [
+                          {
+                            "Name": "Billing_Details",
+                            "Value": "ee13408d-43c0-4c66-bf56-23e050b3835c"
+                          },
+                          {
+                            "Name": "BaseRate",
+                            "Value": "10.00"
+                          }
+                        ],
+                        "ConfiguredValue": [],
+                        "LinkedEntity": [],
+                        "Rate": {
+                          "ID": "2f9efaa9-a259-4e41-b698-a83c8934fd9e",
+                          "Type": "Business_Mobility_VAS_Recurring_Rate",
+                          "StartDate": "2025-02-12",
+                          "Value": "0",
+                          "OriginalValue": 0
+                        },
+                        "ChargeType": "RecurringCharge",
+                        "ExactType": "Business_Mob_VAS_Recur_Charge_Template",
+                        "Periodicity": "Monthly",
+                        "_IsNewForCustomer": true
+                      }
+                    ],
+                    "CharacteristicUse": [],
+                    "RateAttribute": [],
+                    "ConfiguredValue": [],
+                    "LinkedEntity": [],
+                    "_IsNewForCustomer": true
+                  },
+                  {
+                    "ID": "_96b88a0a-899f-43a1-a951-383f182655e9",
+                    "EntityID": "e7074db0-277d-47fd-bfab-110cfc77ef5b",
+                    "ChildEntity": [
+                      {
+                        "ID": "_d71c1b60-a356-4b9a-aff2-04deeb451679",
+                        "EntityID": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+                        "ChildEntity": [],
+                        "CharacteristicUse": [],
+                        "RateAttribute": [
+                          {
+                            "Name": "Billing_Details",
+                            "Value": "ab5659e4-29ba-4a00-b3ce-1ec117ddd05f"
+                          },
+                          {
+                            "Name": "BaseRate",
+                            "Value": "10"
+                          }
+                        ],
+                        "ConfiguredValue": [],
+                        "LinkedEntity": [],
+                        "Rate": {
+                          "ID": "651a3772-7ae5-4f74-89f7-aeb27ab19f05",
+                          "Type": "Business_Mobility_VAS_Recurring_Rate",
+                          "StartDate": "2025-03-12",
+                          "Value": "0",
+                          "OriginalValue": 0
+                        },
+                        "ChargeType": "RecurringCharge",
+                        "ExactType": "Business_Mob_VAS_Recur_Charge_Template",
+                        "Periodicity": "Monthly",
+                        "_IsNewForCustomer": true
+                      }
+                    ],
+                    "CharacteristicUse": [],
+                    "RateAttribute": [],
+                    "ConfiguredValue": [],
+                    "LinkedEntity": [],
+                    "_IsNewForCustomer": true
+                  }
+                ],
+                "CharacteristicUse": [],
+                "RateAttribute": [],
+                "ConfiguredValue": [],
+                "LinkedEntity": [],
+                "_IsNewForCustomer": true
+              }
+            ],
+            "CharacteristicUse": [],
+            "RateAttribute": [],
+            "ConfiguredValue": [],
+            "LinkedEntity": [],
+            "_IsNewForCustomer": true
+          }
+        ],
+        "CharacteristicUse": [],
+        "RateAttribute": [],
+        "ConfiguredValue": [],
+        "LinkedEntity": [],
+        "_IsNewForCustomer": true
+      },
+      "metaDataLookup": {
+        "fromPortfolioItem": false,
+        "version": {
+          "major": 2,
+          "minor": 9,
+          "patch": 0
+        },
+        "ID_heaxbngkvq": {
+          "name": "Business Talk Text and Data",
+          "typePath": "Business_Mobility_Offer_Package_Template/Business_Mobility_Offer_Package/Package/Product/Launch_Entity",
+          "isNew": true,
+          "applyDefaultCardinality": true,
+          "specificationId": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438"
+        },
+        "ID_d0e5ssuszq": {
+          "name": "Business Unit Group",
+          "typePath": "Business_Mobility_Common_PS_Template/Business_Mobility_Common_Product_Specification/Product_Component/Component/Product/Launch_Entity",
+          "isNew": true,
+          "applyDefaultCardinality": true,
+          "specificationId": "2b4e502c-c700-474b-a62d-ec0257060b91"
+        },
+        "ID_d0e5ssuszq|Dish_User_Defined_Characteristics|22e05c89-b4a9-4281-b2fe-5a9c40a8374c": {
+          "name": "Quantity",
+          "isCalculated": false,
+          "pluginId": null,
+          "type": "TUserDefinedCharacteristicValue"
+        },
+        "ID_j1soz2lid8": {
+          "name": "Rate Plan",
+          "typePath": "Business_Mobility_Plan_Template/Business_Mobility_Plan_Specification/Product_Component/Component/Product/Launch_Entity",
+          "isNew": true,
+          "applyDefaultCardinality": true,
+          "specificationId": "1dd5f0a5-d1b8-410c-b024-d69388c30774"
+        },
+        "ID_e8mzaby2hh": {
+          "name": "Bolt Ons",
+          "typePath": "Business_Mobility_Addon_Template/Business_Mobility_Addon_Specification/Product_Component/Component/Product/Launch_Entity",
+          "isNew": true,
+          "applyDefaultCardinality": true,
+          "specificationId": "ce06794e-a34f-456d-8d93-bc5d339e3a96"
+        },
+        "hasBeenSavedInClient": false,
+        "hasDataConflict": false,
+        "ID_d0e5ssuszq|Dish_Contextual_Characteristics|b765290f-61d1-443a-8313-55e933464479": {
+          "type": "TSpecCharUse",
+          "id": "bca4ab84-0e41-46a0-a82f-a62d71e56040",
+          "isCalculated": true,
+          "pluginId": "calculated-values-plugin"
+        }
+      },
+      "id": "bfb21ce6-5f17-4fa0-909e-2327b6e5c31a",
+      "compiledSpecification": {
+        "_id": "682fef10bd9bbffe25ec7094",
+        "specificationId": "ad1e1376-1a36-4c97-bef0-f6e8c04cffb5",
+        "characteristicLookup": {
+          "db402d12-52f1-4c3f-9c51-d6979ec23cc1": {
+            "type": 0
+          },
+          "fdd7a815-fdba-44b0-bc40-f77241f143ee": {
+            "type": 0
+          },
+          "5b028a9d-aaae-4433-ad0c-4f729f80c8d6": {
+            "type": 0
+          },
+          "0162e08a-8eab-417b-bb11-30118ab8acb1": {
+            "type": 1,
+            "valueTypeName": "Lookup_Contract_Term"
+          },
+          "4c220132-7ec1-44de-9b32-93fd8ffc49b2": {
+            "type": 2
+          },
+          "2c1fb0df-f3f0-4465-a76e-0835a5aa6d50": {
+            "type": 0
+          },
+          "4295176c-0b4c-4cce-8332-cc8415d154df": {
+            "type": 0
+          },
+          "97d20c85-717b-4ad3-aa09-aebed875e75f": {
+            "type": 2
+          },
+          "e9afaa47-d481-428a-bf1d-160b2766d8cc": {
+            "type": 2
+          },
+          "b765290f-61d1-443a-8313-55e933464479": {
+            "type": 0
+          },
+          "3fa0d067-9b31-4f7e-a32c-362cf78e96bb": {
+            "type": 0
+          },
+          "22e05c89-b4a9-4281-b2fe-5a9c40a8374c": {
+            "type": 2
+          },
+          "6dc729cc-459c-40a6-a84b-6ccc4b2baf8c": {
+            "type": 0
+          },
+          "5614b8e7-521e-4861-beb9-7b2243e9436e": {
+            "type": 0
+          },
+          "7122ac70-d8d2-44bb-88fd-08de06526dca": {
+            "type": 0
+          },
+          "bcbd2c05-ba5b-4039-8231-0757777eda60": {
+            "type": 0
+          },
+          "30a3b08c-b14b-4bce-bd72-d0320791c427": {
+            "type": 0
+          },
+          "634189be-7dec-4f16-81c2-e13efadbb6ea": {
+            "type": 0
+          },
+          "1a7d3bbf-c6e9-40dd-b3f4-85b0aca85de4": {
+            "type": 0
+          },
+          "7be096d4-5d56-4ab8-bd8a-13a499cf6f10": {
+            "type": 0
+          },
+          "ba513212-8bb3-415c-924b-ae27a16d745e": {
+            "type": 0
+          },
+          "066684ee-1c1c-4212-a150-ae7fb02dedf8": {
+            "type": 0
+          },
+          "253d2f92-88b4-4eb6-b01c-21c85e7797af": {
+            "type": 1,
+            "valueTypeName": "Lookup_Contract_Term"
+          },
+          "d792989b-72f1-4618-b81b-b6ca0ca9f00c": {
+            "type": 2
+          },
+          "0ce5173c-5e74-439d-9930-4db199bd9b54": {
+            "type": 2
+          },
+          "aab1c69b-a1ad-4626-b1fe-415c91b66d2b": {
+            "type": 2
+          },
+          "dbe19bcf-542a-451d-bb95-166db044ae2a": {
+            "type": 0
+          },
+          "9b076834-56f5-4234-a826-0061ad28440f": {
+            "type": 0
+          },
+          "d7c73d5f-60c1-4c0b-8385-c928adf4d5f2": {
+            "type": 0
+          },
+          "fd1b73b2-6e52-4d1b-928f-d361ae9b6b46": {
+            "type": 0
+          },
+          "9ea46d85-a23f-4a0e-8a2a-7c0bd7ca8f5c": {
+            "type": 0
+          },
+          "ec1e56f0-ea9f-4b47-b9e4-a46cd247de6b": {
+            "type": 0
+          },
+          "7b3939e0-2ba2-46b4-8f3f-9554a54701d7": {
+            "type": 0
+          },
+          "93cb8301-36e0-469d-8169-2d1bb2d1813c": {
+            "type": 2
+          },
+          "2c432b2a-d682-4dca-aa7c-d6a75b2cd73f": {
+            "type": 2
+          }
+        },
+        "compatibilityRulesLookup": {
+          "a2087a32-1364-4d20-b75a-904ccf2a0abe": {
+            "name": "Addon compatible with 5gb plan",
+            "type": "SigmaPCCompatibilityRule",
+            "affectedGuids": [
+              "007184"
+            ]
+          }
+        },
+        "entityContext": {
+          "10b6e50c6bf32c088399bc6dc0af4d7d": {
+            "parentHashPath": null,
+            "hashPath": "10b6e50c6bf32c088399bc6dc0af4d7d",
+            "entityId": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+            "name": "Business Talk Text and Data",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d"
+            ],
+            "dates": {
+              "availableStartDate": "2024-10-14",
+              "effectiveStartDate": "2024-10-14"
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "marketingInformation": {
+              "price": 25,
+              "recurringPrice": 25
+            },
+            "characteristics": {
+              "357944db51271b38317cd475e59fa7e5": {
+                "id": "db402d12-52f1-4c3f-9c51-d6979ec23cc1",
+                "useId": "10d2a682-e699-42c3-a5e0-636cb680ad04",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "72f45ed5-924b-469b-ad2d-4dcf08c8a436",
+                    "detail": "Plan"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "357944db51271b38317cd475e59fa7e5",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Plan Classification",
+                "name": "Plan Classification"
+              },
+              "aef0d41eccf78698c74631bce3d6e433": {
+                "id": "fdd7a815-fdba-44b0-bc40-f77241f143ee",
+                "useId": "1888ec39-305d-430c-80b7-16bfb8a79fe6",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "1c296d1f-3731-4b2b-9b5d-da0cb7cb1013",
+                    "detail": "False"
+                  },
+                  {
+                    "id": "882fb0f1-1a89-4086-a28f-88f22f555df2",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "aef0d41eccf78698c74631bce3d6e433",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Port In",
+                "name": "Port In"
+              },
+              "aec18156094c652b19e765a3b75749ac": {
+                "id": "5b028a9d-aaae-4433-ad0c-4f729f80c8d6",
+                "useId": "683ad0b6-2e92-4784-8d23-629df7c6ff5d",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "ede162e5-2af0-0b7b-c7ea-323319e13ba8",
+                    "detail": "False"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "aec18156094c652b19e765a3b75749ac",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Express Activation",
+                "name": "Express Activation"
+              },
+              "00a6d50c41f522926f013637d7589197": {
+                "id": "0162e08a-8eab-417b-bb11-30118ab8acb1",
+                "useId": "0162e08a-8eab-417b-bb11-30118ab8acb1",
+                "useArea": "Contract_Term",
+                "values": [
+                  {
+                    "id": "93bc2cf1-18c8-4583-9f55-fa865b221910",
+                    "detail": "None",
+                    "sWeight": {
+                      "weight": 1
+                    }
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "00a6d50c41f522926f013637d7589197",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Contract Term",
+                "name": "Contract_Term"
+              },
+              "0c1bc29cc938cb76ea24dae1152be691": {
+                "id": "4c220132-7ec1-44de-9b32-93fd8ffc49b2",
+                "useId": "2ff6c95f-0f63-4228-ac1f-a1b71b4c8633",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "0c1bc29cc938cb76ea24dae1152be691",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "displayName": "Customer ID",
+                "name": "Customer ID"
+              }
+            },
+            "children": {
+              "700088ef4bacb6f7a4718cfc21f00413": {},
+              "3323829d9768f3ee1b7da44746bebfb0": {},
+              "e5b26286667abb87f9c48fb14dfae307": {}
+            }
+          },
+          "700088ef4bacb6f7a4718cfc21f00413": {
+            "parentHashPath": "10b6e50c6bf32c088399bc6dc0af4d7d",
+            "hashPath": "700088ef4bacb6f7a4718cfc21f00413",
+            "entityId": "14a3ae83-8a5c-4d15-984b-131f1141c644",
+            "name": "Dynamic Discount",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "700088ef4bacb6f7a4718cfc21f00413"
+            ],
+            "dates": {
+              "availableStartDate": "2024-06-03",
+              "effectiveStartDate": "2024-06-03",
+              "associationStartDate": "2024-10-14"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "4142966ef2542aa4624b6a66ce309ec1": {
+                "id": "4295176c-0b4c-4cce-8332-cc8415d154df",
+                "useId": "c0156a2a-f541-4d8d-9803-71f13ea9ee09",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "0d48d899-e569-4284-8ead-93ff5947f57d",
+                    "detail": "18",
+                    "sWeight": {
+                      "weight": 6
+                    }
+                  },
+                  {
+                    "id": "13ef84ab-8652-44fb-8158-3e7a9fd07262",
+                    "detail": "36",
+                    "sWeight": {
+                      "weight": 9
+                    }
+                  },
+                  {
+                    "id": "20e58452-8f6d-45d4-926f-3b4ae7f980ac",
+                    "detail": "50",
+                    "sWeight": {
+                      "weight": 12
+                    }
+                  },
+                  {
+                    "id": "4cf3414d-03e5-4dcc-bec4-3d57529baa64",
+                    "detail": "48",
+                    "sWeight": {
+                      "weight": 11
+                    }
+                  },
+                  {
+                    "id": "586c11a7-cdce-4bc3-8080-99aa437f9f32",
+                    "detail": "72",
+                    "sWeight": {
+                      "weight": 15
+                    }
+                  },
+                  {
+                    "id": "62934c5f-3247-4e83-a63f-4db347faed41",
+                    "detail": "6",
+                    "sWeight": {
+                      "weight": 3
+                    }
+                  },
+                  {
+                    "id": "64dacd98-153a-467d-b4a4-72fb5fc4c900",
+                    "detail": "12",
+                    "sWeight": {
+                      "weight": 5
+                    }
+                  },
+                  {
+                    "id": "6af40406-fbd8-41d2-a59f-13dc014c5293",
+                    "detail": "24",
+                    "sWeight": {
+                      "weight": 7
+                    }
+                  },
+                  {
+                    "id": "7f5f7303-52f3-4b94-88af-15b30c55685e",
+                    "detail": "100"
+                  },
+                  {
+                    "id": "827f11b0-53ed-4593-b001-4e7bebc7d6df",
+                    "detail": "10",
+                    "sWeight": {
+                      "weight": 4
+                    }
+                  },
+                  {
+                    "id": "83c6d711-b73e-4fe0-84f0-a1d0849e057a",
+                    "detail": "80",
+                    "sWeight": {
+                      "weight": 16
+                    }
+                  },
+                  {
+                    "id": "a8f98ba9-d53d-4bd0-978c-ecb004c04c6d",
+                    "detail": "60",
+                    "sWeight": {
+                      "weight": 13
+                    }
+                  },
+                  {
+                    "id": "a9062a09-aa2a-4d2d-80c8-bdedbfb8aa3b",
+                    "detail": "96",
+                    "sWeight": {
+                      "weight": 18
+                    }
+                  },
+                  {
+                    "id": "b26e7891-78cb-42f0-b37b-9e103b25cd8b",
+                    "detail": "20",
+                    "sWeight": {
+                      "weight": 7
+                    }
+                  },
+                  {
+                    "id": "b9a6ef09-2caa-41c5-a0eb-961bbe96f21b",
+                    "detail": "1",
+                    "sWeight": {
+                      "weight": 1
+                    }
+                  },
+                  {
+                    "id": "bd6a6865-2376-409f-bc50-da3042b8965e",
+                    "detail": "120"
+                  },
+                  {
+                    "id": "c6a81161-e26e-4cdb-946c-99b1435bae63",
+                    "detail": "30",
+                    "sWeight": {
+                      "weight": 8
+                    }
+                  },
+                  {
+                    "id": "cd86b7fe-2c77-4d87-a216-262444bb0553",
+                    "detail": "110"
+                  },
+                  {
+                    "id": "dac205f3-db0b-4b31-8f46-aa40624393ab",
+                    "detail": "70",
+                    "sWeight": {
+                      "weight": 14
+                    }
+                  },
+                  {
+                    "id": "e3a502bc-3f99-4778-b4d5-8a4f471e81e1",
+                    "detail": "90",
+                    "sWeight": {
+                      "weight": 17
+                    }
+                  },
+                  {
+                    "id": "e8c3b7bf-a0bd-49cf-a285-99549a380a3d",
+                    "detail": "3",
+                    "sWeight": {
+                      "weight": 2
+                    }
+                  },
+                  {
+                    "id": "f06e92bf-1b27-40ea-bb91-d824db16fd84",
+                    "detail": "40",
+                    "sWeight": {
+                      "weight": 10
+                    }
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "4142966ef2542aa4624b6a66ce309ec1",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Discount Term Value",
+                "name": "Discount Term Value"
+              },
+              "32537838e166990f968461b38772dfa8": {
+                "id": "97d20c85-717b-4ad3-aa09-aebed875e75f",
+                "useId": "89f69a20-f40b-4525-b0dc-54a3694ff811",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "32537838e166990f968461b38772dfa8",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Discount Term",
+                "name": "Discount Term"
+              }
+            }
+          },
+          "3323829d9768f3ee1b7da44746bebfb0": {
+            "parentHashPath": "10b6e50c6bf32c088399bc6dc0af4d7d",
+            "hashPath": "3323829d9768f3ee1b7da44746bebfb0",
+            "entityId": "950b988d-706f-4ff9-87fd-e5cf8de8fe57",
+            "name": "Dynamic Discount",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "3323829d9768f3ee1b7da44746bebfb0"
+            ],
+            "dates": {
+              "availableStartDate": "2024-06-03",
+              "effectiveStartDate": "2024-06-03",
+              "associationStartDate": "2024-10-14"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "groupCardinality": {
+              "description": "Override",
+              "max": 99,
+              "min": 0
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "b1125582e5c94411bd67bacf57c5e264": {
+                "id": "2c1fb0df-f3f0-4465-a76e-0835a5aa6d50",
+                "useId": "39f5e9e8-71fa-479e-abfc-9fb244c6af35",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2f8db22d-ee87-4db1-b693-b643d6d66611",
+                    "detail": "10"
+                  },
+                  {
+                    "id": "4138383b-c2ac-497b-b623-82b0ff29edda",
+                    "detail": "40",
+                    "sWeight": {
+                      "weight": 40
+                    }
+                  },
+                  {
+                    "id": "7deb9644-d4c5-4b49-9f42-6f725be9b151",
+                    "detail": "15"
+                  },
+                  {
+                    "id": "aae9b5a8-3992-4b98-b460-b198c8e28751",
+                    "detail": "2",
+                    "sWeight": {
+                      "weight": 2
+                    }
+                  },
+                  {
+                    "id": "af3e272f-0cae-4365-a091-fd413f5a34f5",
+                    "detail": "20",
+                    "sWeight": {
+                      "weight": 20
+                    }
+                  },
+                  {
+                    "id": "c527a49a-1c31-4229-9fd5-d18f85787968",
+                    "detail": "30",
+                    "sWeight": {
+                      "weight": 30
+                    }
+                  },
+                  {
+                    "id": "c7757ce2-5690-4ff8-8021-364f661db791",
+                    "detail": "1",
+                    "sWeight": {
+                      "weight": 1
+                    }
+                  },
+                  {
+                    "id": "fa9620b3-e04c-4d66-bf6f-46801722c1eb",
+                    "detail": "5",
+                    "sWeight": {
+                      "weight": 5
+                    }
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "b1125582e5c94411bd67bacf57c5e264",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Discount Percentage - obsolete",
+                "name": "Discount Percentage - obsolete"
+              },
+              "4142966ef2542aa4624b6a66ce309ec1": {
+                "id": "4295176c-0b4c-4cce-8332-cc8415d154df",
+                "useId": "d9514085-087c-4cbe-b0c6-4851f2893087",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "0d48d899-e569-4284-8ead-93ff5947f57d",
+                    "detail": "18",
+                    "sWeight": {
+                      "weight": 6
+                    }
+                  },
+                  {
+                    "id": "13ef84ab-8652-44fb-8158-3e7a9fd07262",
+                    "detail": "36",
+                    "sWeight": {
+                      "weight": 9
+                    }
+                  },
+                  {
+                    "id": "20e58452-8f6d-45d4-926f-3b4ae7f980ac",
+                    "detail": "50",
+                    "sWeight": {
+                      "weight": 12
+                    }
+                  },
+                  {
+                    "id": "4cf3414d-03e5-4dcc-bec4-3d57529baa64",
+                    "detail": "48",
+                    "sWeight": {
+                      "weight": 11
+                    }
+                  },
+                  {
+                    "id": "586c11a7-cdce-4bc3-8080-99aa437f9f32",
+                    "detail": "72",
+                    "sWeight": {
+                      "weight": 15
+                    }
+                  },
+                  {
+                    "id": "62934c5f-3247-4e83-a63f-4db347faed41",
+                    "detail": "6",
+                    "sWeight": {
+                      "weight": 3
+                    }
+                  },
+                  {
+                    "id": "64dacd98-153a-467d-b4a4-72fb5fc4c900",
+                    "detail": "12",
+                    "sWeight": {
+                      "weight": 5
+                    }
+                  },
+                  {
+                    "id": "6af40406-fbd8-41d2-a59f-13dc014c5293",
+                    "detail": "24",
+                    "sWeight": {
+                      "weight": 7
+                    }
+                  },
+                  {
+                    "id": "7f5f7303-52f3-4b94-88af-15b30c55685e",
+                    "detail": "100"
+                  },
+                  {
+                    "id": "827f11b0-53ed-4593-b001-4e7bebc7d6df",
+                    "detail": "10",
+                    "sWeight": {
+                      "weight": 4
+                    }
+                  },
+                  {
+                    "id": "83c6d711-b73e-4fe0-84f0-a1d0849e057a",
+                    "detail": "80",
+                    "sWeight": {
+                      "weight": 16
+                    }
+                  },
+                  {
+                    "id": "a8f98ba9-d53d-4bd0-978c-ecb004c04c6d",
+                    "detail": "60",
+                    "sWeight": {
+                      "weight": 13
+                    }
+                  },
+                  {
+                    "id": "a9062a09-aa2a-4d2d-80c8-bdedbfb8aa3b",
+                    "detail": "96",
+                    "sWeight": {
+                      "weight": 18
+                    }
+                  },
+                  {
+                    "id": "b26e7891-78cb-42f0-b37b-9e103b25cd8b",
+                    "detail": "20",
+                    "sWeight": {
+                      "weight": 7
+                    }
+                  },
+                  {
+                    "id": "b9a6ef09-2caa-41c5-a0eb-961bbe96f21b",
+                    "detail": "1",
+                    "sWeight": {
+                      "weight": 1
+                    }
+                  },
+                  {
+                    "id": "bd6a6865-2376-409f-bc50-da3042b8965e",
+                    "detail": "120"
+                  },
+                  {
+                    "id": "c6a81161-e26e-4cdb-946c-99b1435bae63",
+                    "detail": "30",
+                    "sWeight": {
+                      "weight": 8
+                    }
+                  },
+                  {
+                    "id": "cd86b7fe-2c77-4d87-a216-262444bb0553",
+                    "detail": "110"
+                  },
+                  {
+                    "id": "dac205f3-db0b-4b31-8f46-aa40624393ab",
+                    "detail": "70",
+                    "sWeight": {
+                      "weight": 14
+                    }
+                  },
+                  {
+                    "id": "e3a502bc-3f99-4778-b4d5-8a4f471e81e1",
+                    "detail": "90",
+                    "sWeight": {
+                      "weight": 17
+                    }
+                  },
+                  {
+                    "id": "e8c3b7bf-a0bd-49cf-a285-99549a380a3d",
+                    "detail": "3",
+                    "sWeight": {
+                      "weight": 2
+                    }
+                  },
+                  {
+                    "id": "f06e92bf-1b27-40ea-bb91-d824db16fd84",
+                    "detail": "40",
+                    "sWeight": {
+                      "weight": 10
+                    }
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "4142966ef2542aa4624b6a66ce309ec1",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Discount Term Value",
+                "name": "Discount Term Value"
+              },
+              "32537838e166990f968461b38772dfa8": {
+                "id": "97d20c85-717b-4ad3-aa09-aebed875e75f",
+                "useId": "594ac37a-cf45-48c9-a7eb-54ce5c368b17",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "32537838e166990f968461b38772dfa8",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "regularExpression": {
+                  "message": "Term must be 1-120 months",
+                  "expression": "^(?:[1-9]|[1-9][0-9]|10[0-9]|11[0-9]|120)$"
+                },
+                "displayName": "Discount Term",
+                "name": "Discount Term"
+              },
+              "b5e93796c811d72b2caabac22ad859bf": {
+                "id": "e9afaa47-d481-428a-bf1d-160b2766d8cc",
+                "useId": "9b2137a1-9d05-45c0-9db5-a2533416c057",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "b5e93796c811d72b2caabac22ad859bf",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "regularExpression": {
+                  "message": "Percentage between .01 and 100 required",
+                  "expression": "^(?!0(\\.0{1,2})?$)(100(?:\\.0{1,2})?|[1-9]?[0-9](?:\\.\\d{1,2})?)$"
+                },
+                "displayName": "Discount Percentage",
+                "name": "Discount Percentage"
+              }
+            }
+          },
+          "e5b26286667abb87f9c48fb14dfae307": {
+            "parentHashPath": "10b6e50c6bf32c088399bc6dc0af4d7d",
+            "hashPath": "e5b26286667abb87f9c48fb14dfae307",
+            "entityId": "2b4e502c-c700-474b-a62d-ec0257060b91",
+            "name": "Business Unit Group",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307"
+            ],
+            "dates": {
+              "availableStartDate": "2024-03-13",
+              "effectiveStartDate": "2024-03-13",
+              "associationStartDate": "2024-10-14"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "62592f3dd964e76dbe39a1cb38f06cc3": {
+                "id": "b765290f-61d1-443a-8313-55e933464479",
+                "useId": "bca4ab84-0e41-46a0-a82f-a62d71e56040",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "42bca385-56e9-433a-aac2-722fe6790b5e",
+                    "detail": "To be Determined",
+                    "sWeight": {
+                      "weight": 110
+                    }
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "62592f3dd964e76dbe39a1cb38f06cc3",
+                "cpqBehavior": {
+                  "isCalculated": true,
+                  "pluginID": "calculated-values-plugin"
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Network",
+                "name": "Network"
+              },
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "f1383126-3427-461e-b4de-cd6820028888",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              },
+              "32537838e166990f968461b38772dfa8": {
+                "id": "97d20c85-717b-4ad3-aa09-aebed875e75f",
+                "useId": "1d37e38e-e8cf-411d-91ff-674cc278f083",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "32537838e166990f968461b38772dfa8",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "displayName": "Discount Term",
+                "name": "Discount Term"
+              },
+              "a7180e99f60c422ced123c709295cf9e": {
+                "id": "22e05c89-b4a9-4281-b2fe-5a9c40a8374c",
+                "useId": "2f6dfbc9-2365-4a6e-95ca-debebc29a7bd",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "a7180e99f60c422ced123c709295cf9e",
+                "cpqBehavior": {
+                  "isDefaulted": true,
+                  "defaultValue": "1"
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "regularExpression": {
+                  "message": "Only whole numbers greater than 0 allowed",
+                  "expression": "^\\s*[1-9][0-9]*\\s*$"
+                },
+                "displayName": "Quantity",
+                "name": "Quantity"
+              },
+              "b5e93796c811d72b2caabac22ad859bf": {
+                "id": "e9afaa47-d481-428a-bf1d-160b2766d8cc",
+                "useId": "74d845ee-1a53-4a3b-9e1d-e07de6442b16",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "b5e93796c811d72b2caabac22ad859bf",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "regularExpression": {
+                  "message": "Percentage between .01 and 100 required",
+                  "expression": "^(?!0(\\.0{1,2})?$)(100(?:\\.0{1,2})?|[1-9]?[0-9](?:\\.\\d{1,2})?)$"
+                },
+                "displayName": "Discount Percentage",
+                "name": "Discount Percentage"
+              }
+            },
+            "children": {
+              "c1c284469e8fb0c40c74d04c84b851e5": {},
+              "93832fe15d429fae5a7691bbadb82d06": {}
+            }
+          },
+          "c1c284469e8fb0c40c74d04c84b851e5": {
+            "parentHashPath": "e5b26286667abb87f9c48fb14dfae307",
+            "hashPath": "c1c284469e8fb0c40c74d04c84b851e5",
+            "entityId": "1dd5f0a5-d1b8-410c-b024-d69388c30774",
+            "name": "Rate Plan",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "c1c284469e8fb0c40c74d04c84b851e5"
+            ],
+            "dates": {
+              "availableStartDate": "2024-03-13",
+              "effectiveStartDate": "2024-03-13",
+              "associationStartDate": "2024-03-13"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "defaultCardinality": 0,
+            "sWeight": {
+              "weight": 100
+            },
+            "groupCardinality": {
+              "description": "Override",
+              "max": 1,
+              "min": 1
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "106f4827-dbb7-4be6-8e2d-cc22e3d40fc6",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              }
+            },
+            "children": {
+              "60a44d6e3434c68ec6968dea5a3e62ff": {}
+            }
+          },
+          "60a44d6e3434c68ec6968dea5a3e62ff": {
+            "parentHashPath": "c1c284469e8fb0c40c74d04c84b851e5",
+            "hashPath": "60a44d6e3434c68ec6968dea5a3e62ff",
+            "entityId": "a04b0811-5d85-4f43-90e0-18f39876fd95",
+            "name": "Business Unlimited",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "c1c284469e8fb0c40c74d04c84b851e5",
+              "60a44d6e3434c68ec6968dea5a3e62ff"
+            ],
+            "dates": {
+              "availableStartDate": "2025-02-10",
+              "effectiveStartDate": "2025-02-10",
+              "associationStartDate": "2025-02-10"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "defaultCardinality": 0,
+            "groupCardinality": {
+              "description": "Override",
+              "max": 99,
+              "min": 0
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "marketingInformation": {
+              "price": 25,
+              "recurringPrice": 25
+            },
+            "characteristics": {
+              "be5b02dee60ca0bb9fe8e26154194e54": {
+                "id": "6dc729cc-459c-40a6-a84b-6ccc4b2baf8c",
+                "useId": "4fbbe431-1bb0-46a6-9617-284e2e9811a4",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2cd983e0-8de7-4dc6-8522-a3f476f13193",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "be5b02dee60ca0bb9fe8e26154194e54",
+                "sWeight": {
+                  "weight": 10
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Data",
+                "name": "Data"
+              },
+              "0e607b5f8e89172ec1535c945a424262": {
+                "id": "5614b8e7-521e-4861-beb9-7b2243e9436e",
+                "useId": "5120b019-7891-4d3a-a6f4-3489d494d33c",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "fb9e751d-6560-44a1-ba97-ffd22b023b87",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0e607b5f8e89172ec1535c945a424262",
+                "sWeight": {
+                  "weight": 40
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "MMS",
+                "name": "MMS"
+              },
+              "cd9e46c4b9c8125ae7ff403c7832eeb1": {
+                "id": "7122ac70-d8d2-44bb-88fd-08de06526dca",
+                "useId": "6cdb008b-f1d9-4880-8502-541c2a3d0225",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "38a0c223-193b-4169-aa58-3dc7e1319b66",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "cd9e46c4b9c8125ae7ff403c7832eeb1",
+                "sWeight": {
+                  "weight": 20
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Voice",
+                "name": "Voice"
+              },
+              "d870b01376713c1fc288623327efed7f": {
+                "id": "bcbd2c05-ba5b-4039-8231-0757777eda60",
+                "useId": "6e21d6c6-95a5-45e4-8c8d-31555820c3f5",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "e3af04c3-173c-4607-a1b6-59def019edae",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "d870b01376713c1fc288623327efed7f",
+                "sWeight": {
+                  "weight": 120
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Conference Calling",
+                "name": "Conference Calling"
+              },
+              "c17cf23eaeb5e6ef9c4f66e4d9bd7348": {
+                "id": "30a3b08c-b14b-4bce-bd72-d0320791c427",
+                "useId": "838ff2c0-bc56-4096-b6d7-8c9db39bca9e",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "6bde4f67-a71e-4bc4-bdf5-f032feff3383",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "c17cf23eaeb5e6ef9c4f66e4d9bd7348",
+                "sWeight": {
+                  "weight": 80
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Anonymous Call Rejection",
+                "name": "Anonymous Call Rejection"
+              },
+              "d61e4b22b2e006f037c7f7ad00330e38": {
+                "id": "634189be-7dec-4f16-81c2-e13efadbb6ea",
+                "useId": "9a46ea01-5289-45c8-a1cb-527dea69517e",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "45c4369b-3d2e-449d-a3b2-c50ab59f26d5",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "d61e4b22b2e006f037c7f7ad00330e38",
+                "sWeight": {
+                  "weight": 30
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "SMS",
+                "name": "SMS"
+              },
+              "156478d3a9756d0e6c3183d6990d1de6": {
+                "id": "1a7d3bbf-c6e9-40dd-b3f4-85b0aca85de4",
+                "useId": "a3c62e10-cd6b-4d3c-8506-7ae9f65df560",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "9f1aeb0a-e976-4b90-a5c2-f129d903cc41",
+                    "detail": "Traditional Voicemail"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "156478d3a9756d0e6c3183d6990d1de6",
+                "sWeight": {
+                  "weight": 50
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Voicemail Type",
+                "name": "Voicemail Type"
+              },
+              "cc21610ad0ec6799b1d74d4c6bdbc071": {
+                "id": "7be096d4-5d56-4ab8-bd8a-13a499cf6f10",
+                "useId": "d5d776bb-5690-4a4f-b65f-2b9ac5158531",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "456b5f23-1ad6-4095-a718-90cde1751a17",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "cc21610ad0ec6799b1d74d4c6bdbc071",
+                "sWeight": {
+                  "weight": 70
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Domestic Roam",
+                "name": "Domestic Roam"
+              },
+              "fcb0641aa0bd58d62ff29372551056f8": {
+                "id": "ba513212-8bb3-415c-924b-ae27a16d745e",
+                "useId": "deb9c9c2-a78a-4523-b16a-56057b521493",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "6fc08ae0-47f3-49bb-8386-b32583411075",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "fcb0641aa0bd58d62ff29372551056f8",
+                "sWeight": {
+                  "weight": 110
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Call Forwarding",
+                "name": "Call Forwarding"
+              },
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "e35c1b06-5431-4bae-ad30-4d1626076dc9",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              },
+              "0cc38612f59d7299947c4887b4fdee96": {
+                "id": "066684ee-1c1c-4212-a150-ae7fb02dedf8",
+                "useId": "e5d3f5fa-4e1a-44a7-ae66-cd7772adfb0e",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "7bf76617-6158-43e2-abaa-0f7e3c1b7e0d",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0cc38612f59d7299947c4887b4fdee96",
+                "sWeight": {
+                  "weight": 100
+                },
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Spam and Fraud",
+                "name": "Spam and Fraud"
+              },
+              "39b007a9a7b2bea0dd104e74d061c4aa": {
+                "id": "253d2f92-88b4-4eb6-b01c-21c85e7797af",
+                "useId": "253d2f92-88b4-4eb6-b01c-21c85e7797af",
+                "useArea": "Contract_Term",
+                "values": [
+                  {
+                    "id": "19d8229f-1b16-494f-abce-0c9f7696c748",
+                    "detail": "36",
+                    "sWeight": {
+                      "weight": 36
+                    }
+                  },
+                  {
+                    "id": "93bc2cf1-18c8-4583-9f55-fa865b221910",
+                    "detail": "None",
+                    "sWeight": {
+                      "weight": 1
+                    }
+                  },
+                  {
+                    "id": "979d5fda-f1ef-4b66-a407-d5f00fe54dd5",
+                    "detail": "24",
+                    "sWeight": {
+                      "weight": 24
+                    }
+                  },
+                  {
+                    "id": "c6b5709d-7189-4b8a-a5d6-08a4a701d759",
+                    "detail": "12",
+                    "sWeight": {
+                      "weight": 12
+                    }
+                  },
+                  {
+                    "id": "cd1c71d2-a36b-4247-a57c-6c4316fcbcaa",
+                    "detail": "48",
+                    "sWeight": {
+                      "weight": 48
+                    }
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "39b007a9a7b2bea0dd104e74d061c4aa",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Contract Term",
+                "name": "Contract_Term"
+              },
+              "02de9c4dfd21997fc32f5514b42ebd43": {
+                "id": "d792989b-72f1-4618-b81b-b6ca0ca9f00c",
+                "useId": "4bf87f45-c2f0-43a9-86bb-168dd26c5540",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "02de9c4dfd21997fc32f5514b42ebd43",
+                "sWeight": {
+                  "weight": 100
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "pluginID": "priceNegotiationCheck"
+                },
+                "displayName": "Price Override",
+                "name": "Price Override"
+              },
+              "2440571c33a4785e67ad2810906966c9": {
+                "id": "0ce5173c-5e74-439d-9930-4db199bd9b54",
+                "useId": "7e01a28f-e8fe-4ba7-a35e-3d1003a15bfe",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "2440571c33a4785e67ad2810906966c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "displayName": "Bucket Ref ID",
+                "name": "Bucket Ref ID"
+              },
+              "032d367ca73fe5147ec51b104c0bfbd3": {
+                "id": "aab1c69b-a1ad-4626-b1fe-415c91b66d2b",
+                "useId": "8292639b-6955-4d57-9f20-0bd06e7ffefa",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "032d367ca73fe5147ec51b104c0bfbd3",
+                "cpqBehavior": {
+                  "isDefaulted": true,
+                  "defaultValue": "Unlimited Talk, Text and Data. No Contract Required. $25/mo. Forever. Buy Now, Pay Later Available. 30GB of Premium Data."
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true,
+                  "isReadOnly": true
+                },
+                "displayName": "Plan Description",
+                "name": "Plan Description"
+              }
+            },
+            "children": {
+              "a0e0432d5e88a242cf5bc543dab598b4": {}
+            }
+          },
+          "a0e0432d5e88a242cf5bc543dab598b4": {
+            "parentHashPath": "60a44d6e3434c68ec6968dea5a3e62ff",
+            "hashPath": "a0e0432d5e88a242cf5bc543dab598b4",
+            "entityId": "3a8ac1f7-a2c7-43de-8b25-47da92c2cc80",
+            "name": "Business Mobility Plan Recurring Charges",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "c1c284469e8fb0c40c74d04c84b851e5",
+              "60a44d6e3434c68ec6968dea5a3e62ff",
+              "a0e0432d5e88a242cf5bc543dab598b4"
+            ],
+            "dates": {
+              "availableStartDate": "2024-05-13",
+              "effectiveStartDate": "2024-05-13",
+              "associationStartDate": "2025-02-10"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "currency": {
+              "code": "USD"
+            },
+            "characteristics": {
+              "68d635fe501bf04446eff917386fb6f0": {
+                "id": "dbe19bcf-542a-451d-bb95-166db044ae2a",
+                "useId": "12708c9e-d6a4-4fcb-9d4e-d54bfca2a154",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "a35e456b-7475-4751-8dc7-f06bac0bfda8",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "68d635fe501bf04446eff917386fb6f0",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Prorated",
+                "name": "Prorated"
+              },
+              "63e1609d6af47e421970b5e826018353": {
+                "id": "9b076834-56f5-4234-a826-0061ad28440f",
+                "useId": "2e318d44-f4aa-4249-b493-ddd8a64ac78b",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "686f072a-1fce-41aa-b613-e575d4a53780",
+                    "detail": "Net"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "63e1609d6af47e421970b5e826018353",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Type",
+                "name": "Charge Type"
+              },
+              "7af08a0bd9d3ae4f113e64d2257e2cd4": {
+                "id": "d7c73d5f-60c1-4c0b-8385-c928adf4d5f2",
+                "useId": "62c78215-3ff9-4d4f-a32c-9f0aea5cc07c",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "e30988d0-4b7f-4c40-9a0c-b73f42cc0d21",
+                    "detail": "USD"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "7af08a0bd9d3ae4f113e64d2257e2cd4",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Currency",
+                "name": "Currency"
+              },
+              "4c323970db464e95d35ebfa872ed8117": {
+                "id": "fd1b73b2-6e52-4d1b-928f-d361ae9b6b46",
+                "useId": "96f09fa0-ae81-43c3-9186-e7684baf924a",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2879ffb6-7a3e-4707-a9f9-b4d3f6dcc412",
+                    "detail": "Subscription"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "4c323970db464e95d35ebfa872ed8117",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Level",
+                "name": "Charge Level"
+              },
+              "3caddf249755e6e988652d48d84414a1": {
+                "id": "9ea46d85-a23f-4a0e-8a2a-7c0bd7ca8f5c",
+                "useId": "987558dc-4618-4b23-83f5-44e797d9a3af",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "70adf734-d0be-4574-b564-b1ad3fa17f20",
+                    "detail": "RC"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "3caddf249755e6e988652d48d84414a1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Frequency",
+                "name": "Charge Frequency"
+              },
+              "0a7d2d6e4e0a1df0440a44d073f166c9": {
+                "id": "ec1e56f0-ea9f-4b47-b9e4-a46cd247de6b",
+                "useId": "aa2a3ee0-2488-48db-8527-91b47735197a",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "b35f0130-f2d8-4d28-ab9f-29c51c5719d7",
+                    "detail": "True"
+                  },
+                  {
+                    "id": "feb25b03-2715-49f9-b645-6aafda7fcea2",
+                    "detail": "False"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0a7d2d6e4e0a1df0440a44d073f166c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "IsDiscounted",
+                "name": "IsDiscounted"
+              },
+              "e09b82efeb2760fbe7e82c64c36bdee1": {
+                "id": "7b3939e0-2ba2-46b4-8f3f-9554a54701d7",
+                "useId": "f72dceb3-9d94-4687-9e53-7e96ea388f2e",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "55ffe322-d2ed-445d-9752-7ae313d2c3d1",
+                    "detail": "Monthly"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "e09b82efeb2760fbe7e82c64c36bdee1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Periodicity",
+                "name": "Charge Periodicity"
+              },
+              "d8df516bce857c2a987d1ad92d111eb3": {
+                "id": "93cb8301-36e0-469d-8169-2d1bb2d1813c",
+                "useId": "1513c71f-55fa-4755-a64f-3d842cc78642",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "d8df516bce857c2a987d1ad92d111eb3",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "displayName": "Charge Description",
+                "name": "Charge Description"
+              }
+            }
+          },
+          "93832fe15d429fae5a7691bbadb82d06": {
+            "parentHashPath": "e5b26286667abb87f9c48fb14dfae307",
+            "hashPath": "93832fe15d429fae5a7691bbadb82d06",
+            "entityId": "ce06794e-a34f-456d-8d93-bc5d339e3a96",
+            "name": "Bolt Ons",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06"
+            ],
+            "dates": {
+              "availableStartDate": "2025-03-12",
+              "effectiveStartDate": "2025-03-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "defaultCardinality": 0,
+            "sWeight": {
+              "weight": 175
+            },
+            "groupCardinality": {
+              "description": "Override",
+              "max": 99,
+              "min": 0
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "f95abf0e-9853-4177-b39a-d32a1a00a2e8",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              }
+            },
+            "children": {
+              "220fd77f2bd515847b3dba825ce11271": {},
+              "e44a4bfac05d2b0ed1fc18f5aaab9538": {},
+              "27ffec1457bbb0a1fc2024e59f522029": {},
+              "b4ec7ea5b707c0fedc86486d9d3f0d3f": {}
+            }
+          },
+          "220fd77f2bd515847b3dba825ce11271": {
+            "parentHashPath": "93832fe15d429fae5a7691bbadb82d06",
+            "hashPath": "220fd77f2bd515847b3dba825ce11271",
+            "entityId": "0c418512-5532-406e-805a-6e39c824b433",
+            "name": "Additional 10 GB High Speed Data - Monthly",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "220fd77f2bd515847b3dba825ce11271"
+            ],
+            "dates": {
+              "availableStartDate": "2025-03-12",
+              "effectiveStartDate": "2025-03-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 99,
+            "defaultCardinality": 0,
+            "groupCardinality": {
+              "description": "Override",
+              "max": 99,
+              "min": 0
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "c43ab396-f0b2-4af2-a323-7b6abae97a83",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              },
+              "02de9c4dfd21997fc32f5514b42ebd43": {
+                "id": "d792989b-72f1-4618-b81b-b6ca0ca9f00c",
+                "useId": "7ba5ccbb-700e-4ede-ac06-cc1805ee68ca",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "02de9c4dfd21997fc32f5514b42ebd43",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "pluginID": "priceNegotiationCheck"
+                },
+                "displayName": "Price Override",
+                "name": "Price Override"
+              },
+              "2440571c33a4785e67ad2810906966c9": {
+                "id": "0ce5173c-5e74-439d-9930-4db199bd9b54",
+                "useId": "7c06b5f9-98ba-45a7-b7a4-ffceaad3d04e",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "2440571c33a4785e67ad2810906966c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true,
+                  "isReadOnly": true
+                },
+                "displayName": "Bucket Ref ID",
+                "name": "Bucket Ref ID"
+              }
+            },
+            "children": {
+              "33e4bc6ab9098c124dc8da2b860a4e0a": {}
+            }
+          },
+          "33e4bc6ab9098c124dc8da2b860a4e0a": {
+            "parentHashPath": "220fd77f2bd515847b3dba825ce11271",
+            "hashPath": "33e4bc6ab9098c124dc8da2b860a4e0a",
+            "entityId": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+            "name": "Business Mobility VAS Recurring Charges",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "220fd77f2bd515847b3dba825ce11271",
+              "33e4bc6ab9098c124dc8da2b860a4e0a"
+            ],
+            "dates": {
+              "availableStartDate": "2025-02-12",
+              "effectiveStartDate": "2025-02-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "currency": {
+              "code": "USD"
+            },
+            "characteristics": {
+              "63e1609d6af47e421970b5e826018353": {
+                "id": "9b076834-56f5-4234-a826-0061ad28440f",
+                "useId": "0ba809e3-0b3b-44a3-85d8-188596b0d925",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "686f072a-1fce-41aa-b613-e575d4a53780",
+                    "detail": "Net"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "63e1609d6af47e421970b5e826018353",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Type",
+                "name": "Charge Type"
+              },
+              "7af08a0bd9d3ae4f113e64d2257e2cd4": {
+                "id": "d7c73d5f-60c1-4c0b-8385-c928adf4d5f2",
+                "useId": "0d5b2dcc-d7fb-4bf9-8298-e32191f39d7b",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "e30988d0-4b7f-4c40-9a0c-b73f42cc0d21",
+                    "detail": "USD"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "7af08a0bd9d3ae4f113e64d2257e2cd4",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Currency",
+                "name": "Currency"
+              },
+              "68d635fe501bf04446eff917386fb6f0": {
+                "id": "dbe19bcf-542a-451d-bb95-166db044ae2a",
+                "useId": "2fba0244-c1c6-4745-a380-7da1ef29d5ec",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "a35e456b-7475-4751-8dc7-f06bac0bfda8",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "68d635fe501bf04446eff917386fb6f0",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Prorated",
+                "name": "Prorated"
+              },
+              "4c323970db464e95d35ebfa872ed8117": {
+                "id": "fd1b73b2-6e52-4d1b-928f-d361ae9b6b46",
+                "useId": "46a1c5a3-d703-4ece-9d73-76a138f012a0",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2879ffb6-7a3e-4707-a9f9-b4d3f6dcc412",
+                    "detail": "Subscription"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "4c323970db464e95d35ebfa872ed8117",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Level",
+                "name": "Charge Level"
+              },
+              "3caddf249755e6e988652d48d84414a1": {
+                "id": "9ea46d85-a23f-4a0e-8a2a-7c0bd7ca8f5c",
+                "useId": "48cdd555-0ebf-4001-b823-2f00c375f496",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "70adf734-d0be-4574-b564-b1ad3fa17f20",
+                    "detail": "RC"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "3caddf249755e6e988652d48d84414a1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Frequency",
+                "name": "Charge Frequency"
+              },
+              "0a7d2d6e4e0a1df0440a44d073f166c9": {
+                "id": "ec1e56f0-ea9f-4b47-b9e4-a46cd247de6b",
+                "useId": "70280fc3-7602-4425-aca4-133806c18c02",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "feb25b03-2715-49f9-b645-6aafda7fcea2",
+                    "detail": "False"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0a7d2d6e4e0a1df0440a44d073f166c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "IsDiscounted",
+                "name": "IsDiscounted"
+              },
+              "e09b82efeb2760fbe7e82c64c36bdee1": {
+                "id": "7b3939e0-2ba2-46b4-8f3f-9554a54701d7",
+                "useId": "e045be01-a3b9-454e-8c0a-a2cca18cc8d4",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "55ffe322-d2ed-445d-9752-7ae313d2c3d1",
+                    "detail": "Monthly"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "e09b82efeb2760fbe7e82c64c36bdee1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Periodicity",
+                "name": "Charge Periodicity"
+              },
+              "d8df516bce857c2a987d1ad92d111eb3": {
+                "id": "93cb8301-36e0-469d-8169-2d1bb2d1813c",
+                "useId": "79911c55-009b-47c3-84f7-226283ce10f1",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "d8df516bce857c2a987d1ad92d111eb3",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "displayName": "Charge Description",
+                "name": "Charge Description"
+              }
+            }
+          },
+          "e44a4bfac05d2b0ed1fc18f5aaab9538": {
+            "parentHashPath": "93832fe15d429fae5a7691bbadb82d06",
+            "hashPath": "e44a4bfac05d2b0ed1fc18f5aaab9538",
+            "entityId": "e0b28e73-f579-45c2-a9f7-c08facdab6f8",
+            "name": "1 GB Global Roaming Monthly Recurring VAS",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "e44a4bfac05d2b0ed1fc18f5aaab9538"
+            ],
+            "dates": {
+              "availableStartDate": "2025-03-12",
+              "effectiveStartDate": "2025-03-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "defaultCardinality": 0,
+            "groupCardinality": {
+              "description": "Override",
+              "max": 99,
+              "min": 0
+            },
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "e1a9ae72-f716-40fe-af22-7eec2bd336c5",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              },
+              "2440571c33a4785e67ad2810906966c9": {
+                "id": "0ce5173c-5e74-439d-9930-4db199bd9b54",
+                "useId": "30f7c5ea-a7cd-4109-a05f-5bf9dc0a97ab",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "2440571c33a4785e67ad2810906966c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true,
+                  "isReadOnly": true
+                },
+                "displayName": "Bucket Ref ID",
+                "name": "Bucket Ref ID"
+              },
+              "6593b37a3128c6ab84e0936be3429980": {
+                "id": "2c432b2a-d682-4dca-aa7c-d6a75b2cd73f",
+                "useId": "dc42a02b-f70c-4a81-9959-e57bf81b3dee",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "6593b37a3128c6ab84e0936be3429980",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "displayName": "NetIp Value",
+                "name": "NetIp Value"
+              },
+              "02de9c4dfd21997fc32f5514b42ebd43": {
+                "id": "d792989b-72f1-4618-b81b-b6ca0ca9f00c",
+                "useId": "e89422f7-22d3-412a-9af1-5e54461c5e90",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "02de9c4dfd21997fc32f5514b42ebd43",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "pluginID": "priceNegotiationCheck"
+                },
+                "displayName": "Price Override",
+                "name": "Price Override"
+              }
+            },
+            "children": {
+              "4e8cbf399eaa143c56cd0735056d21dc": {}
+            }
+          },
+          "4e8cbf399eaa143c56cd0735056d21dc": {
+            "parentHashPath": "e44a4bfac05d2b0ed1fc18f5aaab9538",
+            "hashPath": "4e8cbf399eaa143c56cd0735056d21dc",
+            "entityId": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+            "name": "Business Mobility VAS Recurring Charges",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "e44a4bfac05d2b0ed1fc18f5aaab9538",
+              "4e8cbf399eaa143c56cd0735056d21dc"
+            ],
+            "dates": {
+              "availableStartDate": "2025-02-12",
+              "effectiveStartDate": "2025-02-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "currency": {
+              "code": "USD"
+            },
+            "characteristics": {
+              "63e1609d6af47e421970b5e826018353": {
+                "id": "9b076834-56f5-4234-a826-0061ad28440f",
+                "useId": "0ba809e3-0b3b-44a3-85d8-188596b0d925",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "686f072a-1fce-41aa-b613-e575d4a53780",
+                    "detail": "Net"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "63e1609d6af47e421970b5e826018353",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Type",
+                "name": "Charge Type"
+              },
+              "7af08a0bd9d3ae4f113e64d2257e2cd4": {
+                "id": "d7c73d5f-60c1-4c0b-8385-c928adf4d5f2",
+                "useId": "0d5b2dcc-d7fb-4bf9-8298-e32191f39d7b",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "e30988d0-4b7f-4c40-9a0c-b73f42cc0d21",
+                    "detail": "USD"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "7af08a0bd9d3ae4f113e64d2257e2cd4",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Currency",
+                "name": "Currency"
+              },
+              "68d635fe501bf04446eff917386fb6f0": {
+                "id": "dbe19bcf-542a-451d-bb95-166db044ae2a",
+                "useId": "2fba0244-c1c6-4745-a380-7da1ef29d5ec",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "a35e456b-7475-4751-8dc7-f06bac0bfda8",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "68d635fe501bf04446eff917386fb6f0",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Prorated",
+                "name": "Prorated"
+              },
+              "4c323970db464e95d35ebfa872ed8117": {
+                "id": "fd1b73b2-6e52-4d1b-928f-d361ae9b6b46",
+                "useId": "46a1c5a3-d703-4ece-9d73-76a138f012a0",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2879ffb6-7a3e-4707-a9f9-b4d3f6dcc412",
+                    "detail": "Subscription"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "4c323970db464e95d35ebfa872ed8117",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Level",
+                "name": "Charge Level"
+              },
+              "3caddf249755e6e988652d48d84414a1": {
+                "id": "9ea46d85-a23f-4a0e-8a2a-7c0bd7ca8f5c",
+                "useId": "48cdd555-0ebf-4001-b823-2f00c375f496",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "70adf734-d0be-4574-b564-b1ad3fa17f20",
+                    "detail": "RC"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "3caddf249755e6e988652d48d84414a1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Frequency",
+                "name": "Charge Frequency"
+              },
+              "0a7d2d6e4e0a1df0440a44d073f166c9": {
+                "id": "ec1e56f0-ea9f-4b47-b9e4-a46cd247de6b",
+                "useId": "70280fc3-7602-4425-aca4-133806c18c02",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "feb25b03-2715-49f9-b645-6aafda7fcea2",
+                    "detail": "False"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0a7d2d6e4e0a1df0440a44d073f166c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "IsDiscounted",
+                "name": "IsDiscounted"
+              },
+              "e09b82efeb2760fbe7e82c64c36bdee1": {
+                "id": "7b3939e0-2ba2-46b4-8f3f-9554a54701d7",
+                "useId": "e045be01-a3b9-454e-8c0a-a2cca18cc8d4",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "55ffe322-d2ed-445d-9752-7ae313d2c3d1",
+                    "detail": "Monthly"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "e09b82efeb2760fbe7e82c64c36bdee1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Periodicity",
+                "name": "Charge Periodicity"
+              },
+              "d8df516bce857c2a987d1ad92d111eb3": {
+                "id": "93cb8301-36e0-469d-8169-2d1bb2d1813c",
+                "useId": "79911c55-009b-47c3-84f7-226283ce10f1",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "d8df516bce857c2a987d1ad92d111eb3",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "displayName": "Charge Description",
+                "name": "Charge Description"
+              }
+            }
+          },
+          "27ffec1457bbb0a1fc2024e59f522029": {
+            "parentHashPath": "93832fe15d429fae5a7691bbadb82d06",
+            "hashPath": "27ffec1457bbb0a1fc2024e59f522029",
+            "entityId": "63c4ffcb-27fb-4df8-867a-889e760ee74a",
+            "name": "Enterprise Hotspot",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "27ffec1457bbb0a1fc2024e59f522029"
+            ],
+            "dates": {
+              "availableStartDate": "2024-03-13",
+              "effectiveStartDate": "2024-03-13",
+              "associationStartDate": "2025-05-01"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "defaultCardinality": 0,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "3a4aef25-0bc3-44ba-8fdf-cdcd5a488f4e",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              },
+              "02de9c4dfd21997fc32f5514b42ebd43": {
+                "id": "d792989b-72f1-4618-b81b-b6ca0ca9f00c",
+                "useId": "a64261c1-f185-4003-967a-cc7de3d66376",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "02de9c4dfd21997fc32f5514b42ebd43",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "pluginID": "priceNegotiationCheck"
+                },
+                "displayName": "Price Override",
+                "name": "Price Override"
+              },
+              "2440571c33a4785e67ad2810906966c9": {
+                "id": "0ce5173c-5e74-439d-9930-4db199bd9b54",
+                "useId": "a69d2ebe-eecb-4aa9-95b9-aea59a54fcf2",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "2440571c33a4785e67ad2810906966c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "displayName": "Bucket Ref ID",
+                "name": "Bucket Ref ID"
+              }
+            },
+            "children": {
+              "76cabfd087438e443fa615c03141d60c": {}
+            }
+          },
+          "76cabfd087438e443fa615c03141d60c": {
+            "parentHashPath": "27ffec1457bbb0a1fc2024e59f522029",
+            "hashPath": "76cabfd087438e443fa615c03141d60c",
+            "entityId": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+            "name": "Business Mobility VAS Recurring Charges",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "27ffec1457bbb0a1fc2024e59f522029",
+              "76cabfd087438e443fa615c03141d60c"
+            ],
+            "dates": {
+              "availableStartDate": "2025-02-12",
+              "effectiveStartDate": "2025-02-12",
+              "associationStartDate": "2025-02-12"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "currency": {
+              "code": "USD"
+            },
+            "characteristics": {
+              "63e1609d6af47e421970b5e826018353": {
+                "id": "9b076834-56f5-4234-a826-0061ad28440f",
+                "useId": "0ba809e3-0b3b-44a3-85d8-188596b0d925",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "686f072a-1fce-41aa-b613-e575d4a53780",
+                    "detail": "Net"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "63e1609d6af47e421970b5e826018353",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Type",
+                "name": "Charge Type"
+              },
+              "7af08a0bd9d3ae4f113e64d2257e2cd4": {
+                "id": "d7c73d5f-60c1-4c0b-8385-c928adf4d5f2",
+                "useId": "0d5b2dcc-d7fb-4bf9-8298-e32191f39d7b",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "e30988d0-4b7f-4c40-9a0c-b73f42cc0d21",
+                    "detail": "USD"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "7af08a0bd9d3ae4f113e64d2257e2cd4",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Currency",
+                "name": "Currency"
+              },
+              "68d635fe501bf04446eff917386fb6f0": {
+                "id": "dbe19bcf-542a-451d-bb95-166db044ae2a",
+                "useId": "2fba0244-c1c6-4745-a380-7da1ef29d5ec",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "a35e456b-7475-4751-8dc7-f06bac0bfda8",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "68d635fe501bf04446eff917386fb6f0",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Prorated",
+                "name": "Prorated"
+              },
+              "4c323970db464e95d35ebfa872ed8117": {
+                "id": "fd1b73b2-6e52-4d1b-928f-d361ae9b6b46",
+                "useId": "46a1c5a3-d703-4ece-9d73-76a138f012a0",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2879ffb6-7a3e-4707-a9f9-b4d3f6dcc412",
+                    "detail": "Subscription"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "4c323970db464e95d35ebfa872ed8117",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Level",
+                "name": "Charge Level"
+              },
+              "3caddf249755e6e988652d48d84414a1": {
+                "id": "9ea46d85-a23f-4a0e-8a2a-7c0bd7ca8f5c",
+                "useId": "48cdd555-0ebf-4001-b823-2f00c375f496",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "70adf734-d0be-4574-b564-b1ad3fa17f20",
+                    "detail": "RC"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "3caddf249755e6e988652d48d84414a1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Frequency",
+                "name": "Charge Frequency"
+              },
+              "0a7d2d6e4e0a1df0440a44d073f166c9": {
+                "id": "ec1e56f0-ea9f-4b47-b9e4-a46cd247de6b",
+                "useId": "70280fc3-7602-4425-aca4-133806c18c02",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "feb25b03-2715-49f9-b645-6aafda7fcea2",
+                    "detail": "False"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0a7d2d6e4e0a1df0440a44d073f166c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "IsDiscounted",
+                "name": "IsDiscounted"
+              },
+              "e09b82efeb2760fbe7e82c64c36bdee1": {
+                "id": "7b3939e0-2ba2-46b4-8f3f-9554a54701d7",
+                "useId": "e045be01-a3b9-454e-8c0a-a2cca18cc8d4",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "55ffe322-d2ed-445d-9752-7ae313d2c3d1",
+                    "detail": "Monthly"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "e09b82efeb2760fbe7e82c64c36bdee1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Periodicity",
+                "name": "Charge Periodicity"
+              },
+              "d8df516bce857c2a987d1ad92d111eb3": {
+                "id": "93cb8301-36e0-469d-8169-2d1bb2d1813c",
+                "useId": "79911c55-009b-47c3-84f7-226283ce10f1",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "d8df516bce857c2a987d1ad92d111eb3",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "displayName": "Charge Description",
+                "name": "Charge Description"
+              }
+            }
+          },
+          "b4ec7ea5b707c0fedc86486d9d3f0d3f": {
+            "parentHashPath": "93832fe15d429fae5a7691bbadb82d06",
+            "hashPath": "b4ec7ea5b707c0fedc86486d9d3f0d3f",
+            "entityId": "e7074db0-277d-47fd-bfab-110cfc77ef5b",
+            "name": "NA 5 GB Roaming Monthly Recurring VAS",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "b4ec7ea5b707c0fedc86486d9d3f0d3f"
+            ],
+            "dates": {
+              "availableStartDate": "2025-03-12",
+              "effectiveStartDate": "2025-03-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "defaultCardinality": 0,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "characteristics": {
+              "8ae39a1491880aaa49b22c2f411170f2": {
+                "id": "3fa0d067-9b31-4f7e-a32c-362cf78e96bb",
+                "useId": "7e864a6f-6338-4b3a-97f9-3654ffc434aa",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "260ca3a3-3617-4898-ac6a-e2b80bd32694",
+                    "detail": "Active"
+                  },
+                  {
+                    "id": "466f092e-2250-40f6-9fd3-caf355fcbb7a",
+                    "detail": "Inactive"
+                  },
+                  {
+                    "id": "8cd4325c-e216-40d1-b05a-26c5423c39fa",
+                    "detail": "Terminated"
+                  }
+                ],
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "8ae39a1491880aaa49b22c2f411170f2",
+                "cpqUIBehavior": {
+                  "isHidden": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Service State",
+                "name": "Service State"
+              },
+              "2440571c33a4785e67ad2810906966c9": {
+                "id": "0ce5173c-5e74-439d-9930-4db199bd9b54",
+                "useId": "4f41cf8c-1548-4a35-9f1e-756c4eb39de8",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "2440571c33a4785e67ad2810906966c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isHidden": true,
+                  "isReadOnly": true
+                },
+                "displayName": "Bucket Ref ID",
+                "name": "Bucket Ref ID"
+              },
+              "02de9c4dfd21997fc32f5514b42ebd43": {
+                "id": "d792989b-72f1-4618-b81b-b6ca0ca9f00c",
+                "useId": "cad60c0c-c364-482b-8bd7-1e966eb06f22",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "02de9c4dfd21997fc32f5514b42ebd43",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "pluginID": "priceNegotiationCheck"
+                },
+                "displayName": "Price Override",
+                "name": "Price Override"
+              }
+            },
+            "children": {
+              "32112f208526ada42ed93c22abfe6a2c": {}
+            }
+          },
+          "32112f208526ada42ed93c22abfe6a2c": {
+            "parentHashPath": "b4ec7ea5b707c0fedc86486d9d3f0d3f",
+            "hashPath": "32112f208526ada42ed93c22abfe6a2c",
+            "entityId": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+            "name": "Business Mobility VAS Recurring Charges",
+            "contextPath": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d",
+              "e5b26286667abb87f9c48fb14dfae307",
+              "93832fe15d429fae5a7691bbadb82d06",
+              "b4ec7ea5b707c0fedc86486d9d3f0d3f",
+              "32112f208526ada42ed93c22abfe6a2c"
+            ],
+            "dates": {
+              "availableStartDate": "2025-02-12",
+              "effectiveStartDate": "2025-02-12",
+              "associationStartDate": "2025-03-12"
+            },
+            "minOccurs": 1,
+            "maxOccurs": 1,
+            "phaseLookup": {
+              "quote": {
+                "QuotePhase": {}
+              },
+              "order": {
+                "Phase1": {}
+              }
+            },
+            "currency": {
+              "code": "USD"
+            },
+            "characteristics": {
+              "63e1609d6af47e421970b5e826018353": {
+                "id": "9b076834-56f5-4234-a826-0061ad28440f",
+                "useId": "0ba809e3-0b3b-44a3-85d8-188596b0d925",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "686f072a-1fce-41aa-b613-e575d4a53780",
+                    "detail": "Net"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "63e1609d6af47e421970b5e826018353",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Type",
+                "name": "Charge Type"
+              },
+              "7af08a0bd9d3ae4f113e64d2257e2cd4": {
+                "id": "d7c73d5f-60c1-4c0b-8385-c928adf4d5f2",
+                "useId": "0d5b2dcc-d7fb-4bf9-8298-e32191f39d7b",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "e30988d0-4b7f-4c40-9a0c-b73f42cc0d21",
+                    "detail": "USD"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "7af08a0bd9d3ae4f113e64d2257e2cd4",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Currency",
+                "name": "Currency"
+              },
+              "68d635fe501bf04446eff917386fb6f0": {
+                "id": "dbe19bcf-542a-451d-bb95-166db044ae2a",
+                "useId": "2fba0244-c1c6-4745-a380-7da1ef29d5ec",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "a35e456b-7475-4751-8dc7-f06bac0bfda8",
+                    "detail": "True"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "68d635fe501bf04446eff917386fb6f0",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Prorated",
+                "name": "Prorated"
+              },
+              "4c323970db464e95d35ebfa872ed8117": {
+                "id": "fd1b73b2-6e52-4d1b-928f-d361ae9b6b46",
+                "useId": "46a1c5a3-d703-4ece-9d73-76a138f012a0",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "2879ffb6-7a3e-4707-a9f9-b4d3f6dcc412",
+                    "detail": "Subscription"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "4c323970db464e95d35ebfa872ed8117",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Level",
+                "name": "Charge Level"
+              },
+              "3caddf249755e6e988652d48d84414a1": {
+                "id": "9ea46d85-a23f-4a0e-8a2a-7c0bd7ca8f5c",
+                "useId": "48cdd555-0ebf-4001-b823-2f00c375f496",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "70adf734-d0be-4574-b564-b1ad3fa17f20",
+                    "detail": "RC"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "3caddf249755e6e988652d48d84414a1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Frequency",
+                "name": "Charge Frequency"
+              },
+              "0a7d2d6e4e0a1df0440a44d073f166c9": {
+                "id": "ec1e56f0-ea9f-4b47-b9e4-a46cd247de6b",
+                "useId": "70280fc3-7602-4425-aca4-133806c18c02",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "feb25b03-2715-49f9-b645-6aafda7fcea2",
+                    "detail": "False"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "0a7d2d6e4e0a1df0440a44d073f166c9",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "IsDiscounted",
+                "name": "IsDiscounted"
+              },
+              "e09b82efeb2760fbe7e82c64c36bdee1": {
+                "id": "7b3939e0-2ba2-46b4-8f3f-9554a54701d7",
+                "useId": "e045be01-a3b9-454e-8c0a-a2cca18cc8d4",
+                "useArea": "Dish_Contextual_Characteristics",
+                "values": [
+                  {
+                    "id": "55ffe322-d2ed-445d-9752-7ae313d2c3d1",
+                    "detail": "Monthly"
+                  }
+                ],
+                "minOccurs": 1,
+                "maxOccurs": 1,
+                "hash": "e09b82efeb2760fbe7e82c64c36bdee1",
+                "cpqBehavior": {
+                  "isDefaulted": true
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "displayName": "Charge Periodicity",
+                "name": "Charge Periodicity"
+              },
+              "d8df516bce857c2a987d1ad92d111eb3": {
+                "id": "93cb8301-36e0-469d-8169-2d1bb2d1813c",
+                "useId": "79911c55-009b-47c3-84f7-226283ce10f1",
+                "useArea": "Dish_User_Defined_Characteristics",
+                "minOccurs": 0,
+                "maxOccurs": 1,
+                "hash": "d8df516bce857c2a987d1ad92d111eb3",
+                "phaseLookup": {
+                  "quote": {
+                    "QuotePhase": {}
+                  },
+                  "order": {
+                    "Phase1": {}
+                  }
+                },
+                "cpqUIBehavior": {
+                  "isReadOnly": true
+                },
+                "displayName": "Charge Description",
+                "name": "Charge Description"
+              }
+            }
+          }
+        },
+        "entityLookup": {
+          "ca1dce79-0290-4db6-b0f8-5b7d7dc72438": {
+            "id": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+            "typePath": "Business_Mobility_Offer_Package_Template/Business_Mobility_Offer_Package/Package/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Package",
+            "name": "Business Talk Text and Data",
+            "availablePaths": [
+              "10b6e50c6bf32c088399bc6dc0af4d7d"
+            ],
+            "description": "Business Talk Text and Data plans",
+            "businessId": "007445"
+          },
+          "14a3ae83-8a5c-4d15-984b-131f1141c644": {
+            "id": "14a3ae83-8a5c-4d15-984b-131f1141c644",
+            "typePath": "Business_Mobility_Charge_Discount_Template/Business_Mobility_Charge_Based_Discount/SChgBsdProdDisco/SDisco/Launch_Entity",
+            "type": 5,
+            "pattern": "SChgBsdProdDisco",
+            "name": "Dynamic Discount",
+            "availablePaths": [
+              "700088ef4bacb6f7a4718cfc21f00413"
+            ],
+            "description": "Dynamic Discount",
+            "businessId": "007211",
+            "chargeType": 1,
+            "rateKeys": {}
+          },
+          "950b988d-706f-4ff9-87fd-e5cf8de8fe57": {
+            "id": "950b988d-706f-4ff9-87fd-e5cf8de8fe57",
+            "typePath": "Business_Mobility_Common_PS_Template/Business_Mobility_Common_Product_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Dynamic Discount",
+            "availablePaths": [
+              "3323829d9768f3ee1b7da44746bebfb0"
+            ],
+            "description": "Enterprise Negotiation Product for dynamic discount",
+            "businessId": "007205"
+          },
+          "2b4e502c-c700-474b-a62d-ec0257060b91": {
+            "id": "2b4e502c-c700-474b-a62d-ec0257060b91",
+            "typePath": "Business_Mobility_Common_PS_Template/Business_Mobility_Common_Product_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Business Unit Group",
+            "availablePaths": [
+              "e5b26286667abb87f9c48fb14dfae307"
+            ],
+            "description": "Business Unit Group",
+            "businessId": "006943"
+          },
+          "1dd5f0a5-d1b8-410c-b024-d69388c30774": {
+            "id": "1dd5f0a5-d1b8-410c-b024-d69388c30774",
+            "typePath": "Business_Mobility_Plan_Template/Business_Mobility_Plan_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Rate Plan",
+            "availablePaths": [
+              "c1c284469e8fb0c40c74d04c84b851e5"
+            ],
+            "description": "Business Mobility Rate Plan",
+            "businessId": "006952"
+          },
+          "a04b0811-5d85-4f43-90e0-18f39876fd95": {
+            "id": "a04b0811-5d85-4f43-90e0-18f39876fd95",
+            "typePath": "Business_Mobility_Plan_Template/Business_Mobility_Plan_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Business Unlimited",
+            "availablePaths": [
+              "60a44d6e3434c68ec6968dea5a3e62ff"
+            ],
+            "description": "Unlimited Talk, Text and Data. No Contract Required. $25/mo. Forever. Buy Now, Pay Later Available. 30GB of Premium Data.",
+            "businessId": "007446"
+          },
+          "3a8ac1f7-a2c7-43de-8b25-47da92c2cc80": {
+            "id": "3a8ac1f7-a2c7-43de-8b25-47da92c2cc80",
+            "typePath": "Bus_Mob_Plan_Recur_Charge_Template/Business_Mobility_Plan_Recurring_Charge/Recurring_Charge/Charge/Launch_Entity",
+            "type": 2,
+            "pattern": "Recurring_Charge",
+            "name": "Business Mobility Plan Recurring Charges",
+            "availablePaths": [
+              "a0e0432d5e88a242cf5bc543dab598b4"
+            ],
+            "description": "Business Mobility Plan Recurring Charges",
+            "businessId": "007179",
+            "periodicity": "Monthly",
+            "chargeType": [
+              {
+                "id": "9d76e94f-ebce-4294-a55d-3307daabe5cb",
+                "meta": {
+                  "id": "9d76e94f-ebce-4294-a55d-3307daabe5cb",
+                  "pattern": "Lookup",
+                  "typePath": "Lookup_Charge_Type/Lookup",
+                  "typeName": "Lookup_Charge_Type",
+                  "elementName": "Charge_Type"
+                },
+                "name": "Net"
+              }
+            ],
+            "rateKeys": {
+              "Lookup_Billing_Details": {
+                "elementName": "Billing_Details"
+              }
+            }
+          },
+          "ce06794e-a34f-456d-8d93-bc5d339e3a96": {
+            "id": "ce06794e-a34f-456d-8d93-bc5d339e3a96",
+            "typePath": "Business_Mobility_Addon_Template/Business_Mobility_Addon_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Bolt Ons",
+            "availablePaths": [
+              "93832fe15d429fae5a7691bbadb82d06"
+            ],
+            "description": "Business Mobility BoltOns",
+            "businessId": "006967"
+          },
+          "0c418512-5532-406e-805a-6e39c824b433": {
+            "id": "0c418512-5532-406e-805a-6e39c824b433",
+            "typePath": "Business_Mobility_Addon_Template/Business_Mobility_Addon_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Additional 10 GB High Speed Data - Monthly",
+            "availablePaths": [
+              "220fd77f2bd515847b3dba825ce11271"
+            ],
+            "description": "Additional 10 GB High Speed Data - Monthly",
+            "businessId": "006963"
+          },
+          "ad71c311-ad37-40b3-81c3-8fc4109acef9": {
+            "id": "ad71c311-ad37-40b3-81c3-8fc4109acef9",
+            "typePath": "Business_Mob_VAS_Recur_Charge_Template/Business_Mobility_Plan_Recurring_Charge/Recurring_Charge/Charge/Launch_Entity",
+            "type": 2,
+            "pattern": "Recurring_Charge",
+            "name": "Business Mobility VAS Recurring Charges",
+            "availablePaths": [
+              "33e4bc6ab9098c124dc8da2b860a4e0a",
+              "4e8cbf399eaa143c56cd0735056d21dc",
+              "76cabfd087438e443fa615c03141d60c",
+              "32112f208526ada42ed93c22abfe6a2c"
+            ],
+            "description": "Business Mobility VAS Recurring Charges",
+            "businessId": "007454",
+            "periodicity": "Monthly",
+            "chargeType": [
+              {
+                "id": "9d76e94f-ebce-4294-a55d-3307daabe5cb",
+                "meta": {
+                  "id": "9d76e94f-ebce-4294-a55d-3307daabe5cb",
+                  "pattern": "Lookup",
+                  "typePath": "Lookup_Charge_Type/Lookup",
+                  "typeName": "Lookup_Charge_Type",
+                  "elementName": "Charge_Type"
+                },
+                "name": "Net"
+              }
+            ],
+            "rateKeys": {
+              "Lookup_Billing_Details": {
+                "elementName": "Billing_Details"
+              }
+            }
+          },
+          "e0b28e73-f579-45c2-a9f7-c08facdab6f8": {
+            "id": "e0b28e73-f579-45c2-a9f7-c08facdab6f8",
+            "typePath": "Business_Mobility_Addon_Template/Business_Mobility_Addon_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "1 GB Global Roaming Monthly Recurring VAS",
+            "availablePaths": [
+              "e44a4bfac05d2b0ed1fc18f5aaab9538"
+            ],
+            "description": "1 GB Global Roaming Monthly Recurring VAS",
+            "businessId": "007489"
+          },
+          "63c4ffcb-27fb-4df8-867a-889e760ee74a": {
+            "id": "63c4ffcb-27fb-4df8-867a-889e760ee74a",
+            "typePath": "Business_Mobility_Addon_Template/Business_Mobility_Addon_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "Enterprise Hotspot",
+            "availablePaths": [
+              "27ffec1457bbb0a1fc2024e59f522029"
+            ],
+            "description": "Enterprise Hotspot",
+            "businessId": "007453"
+          },
+          "e7074db0-277d-47fd-bfab-110cfc77ef5b": {
+            "id": "e7074db0-277d-47fd-bfab-110cfc77ef5b",
+            "typePath": "Business_Mobility_Addon_Template/Business_Mobility_Addon_Specification/Product_Component/Component/Product/Launch_Entity",
+            "type": 1,
+            "pattern": "Product",
+            "name": "NA 5 GB Roaming Monthly Recurring VAS",
+            "availablePaths": [
+              "b4ec7ea5b707c0fedc86486d9d3f0d3f"
+            ],
+            "description": "NA 5 GB Roaming Monthly Recurring VAS",
+            "businessId": "007484"
+          }
+        },
+        "productId": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+        "quoteId": null,
+        "rateAttributeLookup": {
+          "2a36f747dd5ad180a742d3eee4a92efd": [
+            {
+              "rateAttributeId": "f1f23d0d-a5f4-4408-b7a4-bd568bacfb9a",
+              "elementName": "Billing_Details"
+            }
+          ],
+          "d87c3aeeb1806b023a2fa7caf7f5816c": [
+            {
+              "rateAttributeId": "c123575c-5f4c-4da2-b1fb-95d8f3cd4e03",
+              "elementName": "Billing_Details"
+            }
+          ],
+          "20d11b0be26da813d3bbf39b4dadc117": [
+            {
+              "rateAttributeId": "f46a4d0d-9f63-4823-9948-43e77069b3ca",
+              "elementName": "Billing_Details"
+            }
+          ],
+          "c0e5627fd3624f23c8e7810553c42a58": [
+            {
+              "rateAttributeId": "ee13408d-43c0-4c66-bf56-23e050b3835c",
+              "elementName": "Billing_Details"
+            }
+          ],
+          "1c3757d38cce4b10a045a12d6b131221": [
+            {
+              "rateAttributeId": "ab5659e4-29ba-4a00-b3ce-1ec117ddd05f",
+              "elementName": "Billing_Details"
+            }
+          ]
+        },
+        "rateLookup": {},
+        "rootHashPath": "10b6e50c6bf32c088399bc6dc0af4d7d"
+      }
+    }
+  ],
+  "quoteType": 0,
+  "specLookup": [
+    {
+      "specId": "ad1e1376-1a36-4c97-bef0-f6e8c04cffb5",
+      "quoteItemId": "bfb21ce6-5f17-4fa0-909e-2327b6e5c31a",
+      "productId": "ca1dce79-0290-4db6-b0f8-5b7d7dc72438",
+      "dataVersionId": "5228ce16-7c2c-4373-9fd2-2d781351a792",
+      "version": {
+        "major": 4,
+        "minor": 1,
+        "patch": 0
+      }
+    }
+  ]
+}
