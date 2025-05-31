@@ -1,6 +1,5 @@
 #!/bin/bash
-
-cd /home/ec2-user/finlytics || exit
+cd /home/ec2-user/finlytics/finlytics || exit
 
 echo "🔄 Pulling latest code..."
 git pull origin main
