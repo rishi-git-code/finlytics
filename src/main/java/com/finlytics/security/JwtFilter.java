@@ -15,14 +15,17 @@ import java.util.ArrayList;
 import com.finlytics.utils.JwtUtil;
 
 @Component
-public class JwtFilter extends OncePerRequestFilter{
+public class JwtFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,
                                     FilterChain filterChain)
-                throws ServletException, IOException{
+            throws ServletException, IOException {
+
         String path = request.getRequestURI();
+
+        // Allow these endpoints without token
         if (path.equals("/api/v1/user/login") || path.equals("/api/v1/user/register")) {
             filterChain.doFilter(request, response);
             return;
@@ -30,19 +33,22 @@ public class JwtFilter extends OncePerRequestFilter{
 
         String authHeader = request.getHeader("Authorization");
 
-        if(authHeader != null && authHeader.startsWith("Bearer ")){
+        if (authHeader != null && authHeader.startsWith("Bearer ")) {
             String jwt = authHeader.substring(7);
-            try{
+            try {
                 String username = JwtUtil.validateToken(jwt);
                 UsernamePasswordAuthenticationToken authentication =
-                        new UsernamePasswordAuthenticationToken( username, null, new ArrayList<>());
+                        new UsernamePasswordAuthenticationToken(username, null, new ArrayList<>());
                 SecurityContextHolder.getContext().setAuthentication(authentication);
+                filterChain.doFilter(request, response); // allow request
+                return;
             } catch (Exception e) {
                 response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid Token");
                 return;
             }
         }
-        filterChain.doFilter(request,response);
-    }
 
+        // ❌ If request is to a protected route and no token is present
+        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Missing Authorization Header");
+    }
 }
