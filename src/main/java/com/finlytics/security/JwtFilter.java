@@ -22,6 +22,11 @@ public class JwtFilter extends OncePerRequestFilter{
                                     HttpServletResponse response,
                                     FilterChain filterChain)
                 throws ServletException, IOException{
+        String path = request.getRequestURI();
+        if (path.equals("/api/v1/user/login") || path.equals("/api/v1/user/register")) {
+            filterChain.doFilter(request, response);
+            return;
+        }
 
         String authHeader = request.getHeader("Authorization");
 
