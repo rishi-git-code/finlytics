@@ -3,11 +3,13 @@ package com.finlytics.utils;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.security.Key;
 
+@Component
 public class JwtUtil {
 
 //    private static final Key key =Keys.secretKeyFor(SignatureAlgorithm.HS256);
