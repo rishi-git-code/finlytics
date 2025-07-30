@@ -27,7 +27,7 @@ public class JwtUtil {
                 .compact();
     }
 
-    public static String validateToken(String token){
+    public static String extractUserId(String token){
         return Jwts.parserBuilder()
                 .setSigningKey(key)
                 .build()
