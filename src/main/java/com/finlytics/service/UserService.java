@@ -20,15 +20,21 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder; //encode the password before saving to database(encodePassword in SecurityConfig class is mandatory)
 
+    @Autowired
+    private KafkaProducerService kafkaProducerService;
+
     public UserResDTO createUser(UserReqDTO userReqDTO) {
         User user = new User();
         user.setUsername(userReqDTO.getUsername());
         user.setPassword(passwordEncoder.encode(userReqDTO.getPassword()));
         user.setEmail(userReqDTO.getEmail());
         user.setRole(userReqDTO.getRole());
+        user.setStatus(userReqDTO.getStatus());
         user.setPhoneNumber(userReqDTO.getPhoneNumber());
 
         User savedUser = userRepository.save(user); //saved in database
+        userReqDTO.setEventType("Create");
+        kafkaProducerService.sendUserEvent(userReqDTO); //send to kafka topic
         return mapToUserResDTO(savedUser);
     }
 

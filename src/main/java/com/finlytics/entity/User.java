@@ -12,6 +12,7 @@ public class User {
 
     @Id // This annotation is used to specify the primary key of the document(_id).
     private String id;
+    private String userId;
     private String username;
     private String password;
     private String status;
