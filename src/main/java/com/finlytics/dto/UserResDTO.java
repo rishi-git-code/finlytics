@@ -8,4 +8,5 @@ public class UserResDTO {
     private String username;
     private String email;
     private String role;
+    private String status;
 }
